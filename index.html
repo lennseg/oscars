@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Oscars Visualization</title>
-</head>
+    <title>The Academy Outliers</title>
+    <link rel="stylesheet" href="css/main.css"> </head>
 
 <body>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <div id="chart">
+        <h1 class="title" style="padding-left: 0; padding-top: 10px">And The Oscar Goes To...</h1>
+        <div id="button-wrap">
+            <div id="men" class="button active">Men</div>
+            <div id="men" class="button">Women</div>
+            <div id="men" class="button">Nominations</div>
+        </div>
+        <div id="chart-wrapper" style="position: relative; height: 1365px;">
+            <div class="actor">Meryl Streep</div>
+            
+        </div>
+        
+        <section id="chart"></section>
+    </div>
+    <script src="js/d3.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
