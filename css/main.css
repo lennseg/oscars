@@ -1,12 +1,33 @@
 h1{
-
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 li {
     width: 115px;
-    height: 118px;
+    height: 137px;
     float: left;
     padding: none;
     border: 1px solid black;
     list-style: none;
+}
+
+#winner {
+    margin: 0;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align: center; 
+    font-weight: bold;
+    background-color: #FBBD18;
+}
+
+#nominee {
+    margin: 0;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align: center; 
+    font-weight: bold;
+    background-color: white;
 }
