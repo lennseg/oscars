@@ -3,24 +3,79 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Academy Outliers</title>
+    <title>The Academy</title>
     <link rel="stylesheet" href="css/main.css"> </head>
 
 <body>
     <div id="chart">
-        <h1 class="title" style="padding-left: 0; padding-top: 10px">And The Oscar Goes To...</h1>
+        <h1 class="title">And The Oscar Goes To...</h1>
         <div id="button-wrap">
-            <div id="men" class="button active">Men</div>
-            <div id="women" class="button">Women</div>
-            <div id="nominations" class="button">Nominations</div>
+            <button type="men">Men</button>
+            <button type="women">Women</button>
+            <button type="nominees">Nominees</button>            
         </div>
-        <div id="chart-wrapper">
-            <div class="actor">Meryl Streep
-            <svg width="115" height="118">
-                <rect x="0" y="0" width="115" height="118" fill="black" />
-            </svg></div>
+        <div id="nominee-grid">
+            <ul>
+                <li id="streep" class="women"><img src="images/nominees/meryl-streep.jpg"></li>
+                <li id="k-hepburn" class="women"><img src="images/nominees/katharine-hepburn.jpg"></li>
+                <li id="nicholson" class="men"><img src="images/nominees/jack-nicholson.jpg"></li>
+                <li id="davis" class="women"><img src="images/nominees/bette-davis.jpg"></li>
+                <li id="olivier" class="men"><img src="images/nominees/laurence-olivier.jpg"></li>
+                <li id="newman" class="men"><img src="images/nominees/paul-newman.jpg"></li>
+                <li id="tracy" class="men"><img src="images/nominees/spencer-tracey.jpg"></li>
+                <li id="brando" class="men"><img src="images/nominees/marlon-brando.jpg"></li>
+                <li id="lemmon" class="men"><img src="images/nominees/jack-lemmon.jpg"></li>
+                <li id="otoole" class="men"><img src="images/nominees/peter-o-toole.jpg"></li>
+                <li id="pacino" class="men"><img src="images/nominees/al-pacino.jpg"></li>
+                <li id="page" class="women"><img src="images/nominees/geraldine-page.jpg"></li>
+                <li id="bergman" class="women"><img src="images/nominees/ingrid-bergman.jpg"></li>
+                <li id="blanchett" class="women"><img src="images/nominees/cate-blanchett.jpg"></li>
+                <li id="burton" class="men"><img src="images/nominees/richard-burton.jpg"></li>
+                <li id="dench" class="women"><img src="images/nominees/jack-nicholson.jpg"></li>
+                <li id="deniro" class="men"><img src="images/nominees/robert-de-niro.jpg"></li>
+                <li id="duvall" class="men"><img src="images/nominees/robert-duvall.jpg"></li>
+                <li id="fonda" class="women"><img src="images/nominees/jane-fonda.jpg"></li>
+                <li id="garson" class="women"><img src="images/nominees/greer-garson.jpg"></li>
+                <li id="hoffman" class="men"><img src="images/nominees/dustin-hoffman.jpg"></li>
+                <li id="winslet" class="women"><img src="images/nominees/kate-winslet.jpg"></li>
+                <li id="bridges" class="men"><img src="images/nominees/jeff-bridges.jpg"></li>
+                <li id="burstyn" class="women"><img src="images/nominees/ellen-burstyn.jpg"></li>
+                <li id="caine" class="men"><img src="images/nominees/michael-caine.jpg"></li>
+                <li id="close" class="women"><img src="images/nominees/glenn-close.jpg"></li>
+                <li id="kerr" class="women"><img src="images/nominees/deborah-kerr.jpg"></li>
+                <li id="lange" class="women"><img src="images/nominees/jessica-lange.jpg"></li>
+                <li id="redgrave" class="women"><img src="images/nominees/vanessa-redgrave.jpg"></li>
+                <li id="ritter" class="women"><img src="images/nominees/thelma-ritter.jpg"></li>
+                <li id="smith" class="women"><img src="images/nominees/maggie-smith.jpg"></li>
+                <li id="spacek" class="women"><img src="images/nominees/sissy-spacek.jpg"></li>
+                <li id="washington" class="men"><img src="images/nominees/denzel-washington.jpg"></li>
+                <li id="adams" class="women"><img src="images/nominees/amy-adams.jpg"></li>
+                <li id="brancroft" class="women"><img src="images/nominees/anne-brancroft.jpg"></li>
+                <li id="cooper" class="men"><img src="images/nominees/gary-cooper.jpg"></li>
+                <li id="day-lewis" class="men"><img src="images/nominees/daniel-day-lewis.jpg"></li>
+                <li id="de-havilland" class="women"><img src="images/nominees/olivia-de-havilland.jpg"></li>
+                <li id="dicaprio" class="men"><img src="images/nominees/leonardo-dicaprio.jpg"></li>
+                <li id="dunne" class="women"><img src="images/nominees/irene-dunne.jpg"></li>
+                <li id="finney" class="men"><img src="images/nominees/albert-finney.jpg"></li>
+                <li id="freeman" class="men"><img src="images/nominees/morgan-freeman.jpg"></li>
+                <li id="hackman" class="men"><img src="images/nominees/gene-hackman.jpg"></li>
+                <li id="hanks" class="men"><img src="images/nominees/tom-hanks.jpg"></li>
+                <li id="hayward" class="women"><img src="images/nominees/susan-hayward.jpg"></li>
+                <li id="a-hepburn" class="women"><img src="images/nominees/audrey-hepburn.jpg"></li>
+                <li id="jones" class="women"><img src="images/nominees/jennifer-jones.jpg"></li>
+                <li id="kennedy" class="men"><img src="images/nominees/arthur-kennedy.jpg"></li>
+                <li id="maclaine" class="women"><img src="images/nominees/shirley-maclaine.jpg"></li>
+                <li id="march" class="men"><img src="images/nominees/fredric-march.jpg"></li>
+                <li id="moore" class="women"><img src="images/nominees/julianne-moore.jpg"></li>
+                <li id="peck" class="men"><img src="images/nominees/gregory-peck.jpg"></li>
+                <li id="penn" class="men"><img src="images/nominees/sean-penn.jpg"></li>
+                <li id="sarandon" class="women"><img src="images/nominees/susan-hayward.jpg"></li>
+                <li id="shearer" class="women"><img src="images/nominees/norma-shearer.jpg"></li>
+                <li id="stewart" class="men"><img src="images/nominees/james-stewart.jpg"></li>
+                <li id="taylor" class="women"><img src="images/nominees/elizabeth-taylor.jpg"></li>
+            </ul>
         </div>
     </div>
-    <script src="js/d3.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
