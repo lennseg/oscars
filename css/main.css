@@ -1,6 +1,38 @@
 h1 {
     font-family: sans-serif;
     font-size: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#button-wrap {
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    font-size: 11px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #FBBD18;
+    color: black;
+    border: none;
 }
 
 li {
