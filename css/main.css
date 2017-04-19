@@ -1,6 +1,10 @@
-body{
-    background:#1A1A1A;
+body {
+    background: #1A1A1A;
     color: white;
+}
+
+.gold-text {
+    color: #FBBD18;
 }
 
 h1 {
@@ -9,6 +13,7 @@ h1 {
     padding-left: 40px;
     padding-top: 10px;
     word-wrap: break-word;
+    color: white;
 }
 
 p {
@@ -21,7 +26,8 @@ p {
 
 #button-wrap {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .button {
@@ -41,13 +47,36 @@ p {
     border: none;
 }
 
+ul {
+    display: block;
+    margin: auto;
+    width: 90%;
+    font-size: 0;
+}
+
 li {
     width: 115px;
     height: 138px;
-    float: left;
+    display: inline-block;
     padding: none;
     border: 1px solid black;
     list-style: none;
+    position: relative;
+}
+
+.black-opacity {
+    width: 115px;
+    height: 118px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.4s;
+}
+
+.black-opacity:hover {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #winner {
@@ -59,7 +88,7 @@ li {
     text-align: center;
     font-weight: bold;
     background-color: #FBBD18;
-    color:black;
+    color: black;
 }
 
 #nominee {
