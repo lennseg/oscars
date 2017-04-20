@@ -1,4 +1,4 @@
-#The Academy Awards Outliers: Interactive Visualization
+#The Academy Outliers: Interactive Visualization
 
 ##Spring 2017
 
