@@ -13,4 +13,7 @@ The next step was to make this visualization interactive.
 #Process
 
 ##Creating the Grid
+
 <img width="800" alt="screen shot 2017-04-20 at 10 45 41 am" src="https://cloud.githubusercontent.com/assets/21225598/25236938/36e61a08-25b7-11e7-9b36-0828ba1d808c.png">
+
+<img width="800" alt="screen shot 2017-04-20 at 10 54 55 am" src="https://cloud.githubusercontent.com/assets/21225598/25237161/e085ade4-25b7-11e7-9c5e-8f5dd26eff67.png">
