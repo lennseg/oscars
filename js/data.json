@@ -1,0 +1,54 @@
+/* actors dataset */
+
+var actors = {
+    
+    streep: {
+        name: "Meryl Streep", 
+        nominations: ["The Deer Hunter", "Kramer vs. Kramer", "The French Lieutenant's Woman", "Sophie's Choice", "Silkwood", "Out of Africa", "Ironweed", "A Cry in the Dark", "Postcards from the Edge", "The Bridges of Madison County", "One True Thing", "Music of the Heart", "Adaptation", "The Devil Wears Prada", "Doubt", "Julie & Julia", "The Iron Lady", "August: Osage County", "Into the Woods", "Florence Foster Jenkins"],
+        wins: ["Kramer vs. Kramer", "Sophie's Choice", "The Iron Lady"],
+        genres: ["EVERYTHING!"]
+    },
+    
+    khepburn: {
+        name: "Katherine Hepburn",
+        nominations: ["Morning Glory", "Alice Adams", "The Philadelphia Story", "Woman of the Year", "The African Queen", "Summertime", "The Rainmaker", "Suddenly, Last Summer", "Long Day's Journey into Night", "Guess Who's Coming to Dinner", "The Lion in Winter", "On Golden Pond"],
+        wins: ["Morning Glory", "Guess Who's Coming to Dinner", "The Lion in Winter", "On Golden Pond"],
+        genres: ["Drama", "Comedy", "Biography", "Talk-Show", "Family", "War", "Short", "Mystery", "Sport", "Crime", "Musical", "Romance", "Documentary", "Music", "History", "News", "Adventure", "Western", "Reality-TV", "Thriller", "Film-Noir", "Sci-Fi"]
+    },
+    
+    nicholson: {
+        name: "Jack Nicholson",
+        nominations: ["Easy Rider", "Five Easy Pieces", "The Last Detail", "Chinatown", "One Flew Over the Cuckoo's Nest", "Reds", "Terms of Endearment", "Prizzi's Honor", "Ironweed", "A Few Good Men", "As Good as It Gets", "About Schmidt"],
+        wins: ["One Flew Over the Cuckoo's Nest", "Terms of Endearment", "As Good as It Gets"],
+        genres: ["Documentary", "Drama", "Comedy", "Music", "Short", "Romance", "Crime", "Thriller", "Family", "News", "Biography", "Western", "Adventure", "Horror", "Reality-TV", "Action", "Fantasy", "History", "Musical", "Mystery", "Talk-Show", "Animation", "Game-Show", "Sport", "War", "Sci-Fi"]
+    },
+    
+    davis: {
+        name: "Bette Davis",
+        nominations: ["Dangerous", "Jezebel", "Dark Victory", "The Letter", "The Little Foxes", "Now, Voyager", "Mr. Skeffington", "All About Eve", "The Star", "What Ever Happened to Baby Jane?"],
+        wins: ["Dangerous", "Jezebel"],
+        genres: ["Drama", "Comedy", "Talk-Show", "Music", "Family", "Documentary", "Romance", "Crime", "Thriller", "Short", "Mystery", "News", "Biography", "Reality-TV", "Film-Noir", "Game-Show", "Horror", "Western", "History", "Musical", "Adventure", "Fantasy", "Sport", "Action", "Sci-Fi", "War"]
+    },
+    
+    olivier: {
+        name: "Laurence Olivier",
+        nominations: ["Wuthering Heights", "Rebecca", "Henry V", "Hamlet", "Richard III", "The Entertainer", "Othello", "Sleuth", "Marathon Man", "The Boys from Brazil"],
+        wins: ["Hamlet"],
+        genres: ["Drama", "History", "Documentary", "War", "Romance", "Comedy", "Biography", "Talk-Show", "Music", "Family", "Thriller", "Action", "Adventure", "Short", "Mystery", "Crime", "Musical", "News", "Reality-TV", "Fantasy", "Horror"]
+    },
+    
+    kennedy: {
+        name: "Arthur Kennedy",
+        nominations: [{1949: "Champion"}, {1951: "Bright Victory"}, {1955: "Trial"}, {1957: "Peyton Place"}, {1958: "Some Came Running"}],
+        wins: [],
+        genres: ["Drama", "Crime", "Thriller", "War", "Western", "Comedy", "Romance", "Action", "Adventure", "Biography", "Mystery", "History", "Documentary", "Film-Noir", "Musical", "Short", "Music", "Horror", "Sport", "Family", "Sci-Fi", "Fantasy"]
+    }, 
+    
+    maclaine: {
+        name: "Shirley MacLaine",
+        nominations: [{"Some Came Running": 1958}, {"The Apartment": 1960}, {"Irma La Douce": 1963}, {"The Turning Point": 1977}, {"Terms of Endearment": 1983}],
+        wins: [{"Terms of Endearment": 1983}],
+        genres: ["Talk-Show", "Comedy", "Documentary", "Music", "Drama", "News", "Biography", "Romance", "Family", "Musical", "History", "Reality-TV", "Adventure", "Short", "Fantasy", "Crime", "Thriller", "Action", "Animation", "Sci-Fi", "Western", "Horror", "Mystery", "War"]
+    }
+    
+}

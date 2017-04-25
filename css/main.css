@@ -1,6 +1,7 @@
 body {
     background: #1A1A1A;
     color: white;
+    font-family: sans-serif;
 }
 
 .gold-text {
@@ -8,7 +9,6 @@ body {
 }
 
 h1 {
-    font-family: sans-serif;
     font-size: 28px;
     padding-left: 40px;
     padding-top: 10px;
@@ -17,8 +17,7 @@ h1 {
 }
 
 p {
-    font-family: sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     line-height: normal;
     padding-left: 40px;
     padding-right: 40px;
@@ -59,31 +58,39 @@ li {
     height: 138px;
     display: inline-block;
     padding: none;
-    border: 1px solid black;
     list-style: none;
     position: relative;
+    border: 1px solid #1A1A1A;
 }
 
-.black-opacity {
-    width: 115px;
-    height: 118px;
+img {
+    opacity: 0.4;
+    transition: opacity 0.4s ease-in;
+}
+
+img:hover {
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
+}
+
+.overlay {
     position: absolute;
-    top: 20px;
-    left: 0px;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
-    transition-duration: 0.4s;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
 }
 
-.black-opacity:hover {
-    background-color: rgba(0, 0, 0, 0);
+ul > #streep .overlay {
+    width: 85px;
+    height: 100px;
+    background-color: rgba(251, 191, 24, 0.4);
+    /* just for testing */
 }
 
 #winner {
     margin: 0;
     padding: 3px;
-    font-family: sans-serif;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1A1A1A;
     font-size: 11px;
     text-align: center;
     font-weight: bold;
@@ -94,11 +101,15 @@ li {
 #nominee {
     margin: 0;
     padding: 3px;
-    font-family: sans-serif;
     font-size: 11px;
     text-align: center;
     font-weight: bold;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1A1A1A;
     background-color: white;
     color: black;
+}
+
+.modal {
+    position: absolute;
+    z-index: 1000;
 }

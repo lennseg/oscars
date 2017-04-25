@@ -5,193 +5,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Academy Outliers</title>
-    <link rel="stylesheet" href="css/main.css"> </head>
-
+    <link rel="stylesheet" href="css/main.css"></head>
 <body>
-    <div id="chart-wrap">
+   <script src="js/data.json"></script>
+    <header>
         <h1 class="title">And <span class="gold-text">The Oscar</span> Goes To...</h1>
         <p><span class="gold-text">The Academy Awards,</span> they are the awards craved by all of Hollywood. Every November more than <span class="gold-text">6,000</span> voting members from the 17 branches of the Academy of Motion Pictures and Sciences are sent a nominations ballot for the Oscars. They rank their five favorite films in a particular category, from best director to best makeup and so on. For actors and actresses, no matter how many times they’ve been nominated, the chances of winning are unlikely. This visualization shows <span class="gold-text">57</span> actors and actresses who have been nominated five or more times in a leading or a supporting role.</p>
+    </header>
+    <main>
         <div id="button-wrap">
             <button id="women-button" class="button">Women</button>
             <button id="men-button" class="button">Men</button>
             <button id="nominees-button" class="button">All Nominees</button>
         </div>
-        <div id="nominees-grid">
-            <ul>
-                <li id="streep" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Meryl Streep</p><img src="images/nominees/meryl-streep.jpg"></li>
-                <li id="k-hepburn" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Katherine Hepburn</p><img src="images/nominees/katharine-hepburn.jpg"></li>
-                <li id="nicholson" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jack Nicholson</p><img src="images/nominees/jack-nicholson.jpg"></li>
-                <li id="davis" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Bette Davis</p><img src="images/nominees/bette-davis.jpg"></li>
-                <li id="olivier" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Laurence Olivier</p><img src="images/nominees/laurence-olivier.jpg"></li>
-                <li id="newman" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Paul Newman</p><img src="images/nominees/paul-newman.jpg"></li>
-                <li id="tracy" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Spencer Tracy</p><img src="images/nominees/spencer-tracey.jpg"></li>
-                <li id="brando" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Marlon Brando</p><img src="images/nominees/marlon-brando.jpg"></li>
-                <li id="lemmon" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jack Lemmmon</p><img src="images/nominees/jack-lemmon.jpg"></li>
-                <li id="otoole" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Peter O'Toole</p><img src="images/nominees/peter-o-toole.jpg"></li>
-                <li id="pacino" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Al Pacino</p><img src="images/nominees/al-pacino.jpg"></li>
-                <li id="page" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Geraldine Page</p><img src="images/nominees/geraldine-page.jpg"></li>
-                <li id="bergman" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Ingrid Bergman</p><img src="images/nominees/ingrid-bergman.jpg"></li>
-                <li id="blanchett" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Cate Blanchett</p><img src="images/nominees/cate-blanchett.jpg"></li>
-                <li id="burton" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Richard Burton</p><img src="images/nominees/richard-burton.jpg"></li>
-                <li id="dench" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Judi Dench</p><img src="images/nominees/judi-dench.jpg"></li>
-                <li id="deniro" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Robert De Niro</p><img src="images/nominees/robert-de-niro.jpg"></li>
-                <li id="duvall" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Robert Duvall</p><img src="images/nominees/robert-duvall.jpg"></li>
-                <li id="fonda" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jane Fonda</p><img src="images/nominees/jane-fonda.jpg"></li>
-                <li id="garson" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Greer Garson</p><img src="images/nominees/greer-garson.jpg"></li>
-                <li id="hoffman" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Dustin Hoffman</p><img src="images/nominees/dustin-hoffman.jpg"></li>
-                <li id="winslet" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Kate Winslet</p><img src="images/nominees/kate-winslet.jpg"></li>
-                <li id="bridges" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jeff Bridges</p><img src="images/nominees/jeff-bridges.jpg"></li>
-                <li id="burstyn" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Ellen Burstyn</p><img src="images/nominees/ellen-burstyn.jpg"></li>
-                <li id="caine" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Michael Caine</p><img src="images/nominees/michael-caine.jpg"></li>
-                <li id="close" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Glenn Close</p><img src="images/nominees/glenn-close.jpg"></li>
-                <li id="kerr" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Deborah Kerr</p><img src="images/nominees/deborah-kerr.jpg"></li>
-                <li id="lange" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jessica Lange</p><img src="images/nominees/jessica-lange.jpg"></li>
-                <li id="redgrave" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Vanessa Redgrave</p><img src="images/nominees/vanessa-redgrave.jpg"></li>
-                <li id="ritter" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Thelma Ritter</p><img src="images/nominees/thelma-ritter.jpg"></li>
-                <li id="smith" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Maggie Smith</p><img src="images/nominees/maggie-smith.jpg"></li>
-                <li id="spacek" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Sissy Spacek</p><img src="images/nominees/sissy-spacek.jpg"></li>
-                <li id="washington" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Denzel Washington</p><img src="images/nominees/denzel-washington.jpg"></li>
-                <li id="adams" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Amy Adams</p><img src="images/nominees/amy-adams.jpg"></li>
-                <li id="bancroft" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Anne Bancroft</p><img src="images/nominees/anne-bancroft.jpg"></li>
-                <li id="cooper" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Gary Cooper</p><img src="images/nominees/gary-cooper.jpg"></li>
-                <li id="day-lewis" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Daniel Day-Lewis</p><img src="images/nominees/daniel-day-lewis.jpg"></li>
-                <li id="de-havilland" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Olivia de Havilland</p><img src="images/nominees/olivia-de-havilland.jpg"></li>
-                <li id="dicaprio" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Leonardo DiCaprio</p><img src="images/nominees/leonardo-dicaprio.jpg"></li>
-                <li id="dunne" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Irene Dunne</p><img src="images/nominees/irene-dunne.jpg"></li>
-                <li id="finney" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Albert Finney</p><img src="images/nominees/albert-finney.jpg"></li>
-                <li id="freeman" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Morgan Freeman</p><img src="images/nominees/morgan-freeman.jpg"></li>
-                <li id="hackman" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Gene Hackman</p><img src="images/nominees/gene-hackman.jpg"></li>
-                <li id="hanks" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Tom Hanks</p><img src="images/nominees/tom-hanks.jpg"></li>
-                <li id="hayward" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Susan Hayward</p><img src="images/nominees/susan-hayward.jpg"></li>
-                <li id="a-hepburn" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Audrey Hepburn</p><img src="images/nominees/audrey-hepburn.jpg"></li>
-                <li id="jones" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Jennifer Jones</p><img src="images/nominees/jennifer-jones.jpg"></li>
-                <li id="kennedy" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="nominee">Arthur Kennedy</p><img src="images/nominees/arthur-kennedy.jpg"></li>
-                <li id="maclaine" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Shirley MacLaine</p><img src="images/nominees/shirley-maclaine.jpg"></li>
-                <li id="march" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Fredric March</p><img src="images/nominees/fredric-march.jpg"></li>
-                <li id="moore" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Julianne Moore</p><img src="images/nominees/julianne-moore.jpg"></li>
-                <li id="peck" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Gregory Peck</p><img src="images/nominees/gregory-peck.jpg"></li>
-                <li id="penn" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Sean Penn</p><img src="images/nominees/sean-penn.jpg"></li>
-                <li id="sarandon" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Susan Sarandon</p><img src="images/nominees/susan-hayward.jpg"></li>
-                <li id="shearer" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Norma Shearer</p><img src="images/nominees/norma-shearer.jpg"></li>
-                <li id="stewart" class="men nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">James Stewart</p><img src="images/nominees/james-stewart.jpg"></li>
-                <li id="taylor" class="women nominee">
-                    <div class="black-opacity"></div>
-                    <p id="winner">Elizabeth Taylor</p><img src="images/nominees/elizabeth-taylor.jpg"></li>
-            </ul>
-        </div>
-    </div>
+        <ul>
+           <li id="streep" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Meryl Streep</div><img src="images/nominees/meryl-streep.jpg"></li>
+            <li id="khepburn" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Katherine Hepburn</div><img src="images/nominees/katharine-hepburn.jpg"></li>
+            <li id="nicholson" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jack Nicholson</div><img src="images/nominees/jack-nicholson.jpg"></li>
+            <li id="davis" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Bette Davis</div><img src="images/nominees/bette-davis.jpg"></li>
+            <li id="olivier" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Laurence Olivier</div><img src="images/nominees/laurence-olivier.jpg"></li>
+            <li id="newman" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Paul Newman</div><img src="images/nominees/paul-newman.jpg"></li>
+            <li id="tracy" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Spencer Tracy</div><img src="images/nominees/spencer-tracey.jpg"></li>
+            <li id="brando" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Marlon Brando</div><img src="images/nominees/marlon-brando.jpg"></li>
+            <li id="lemmon" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jack Lemmmon</div><img src="images/nominees/jack-lemmon.jpg"></li>
+            <li id="otoole" class="men nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Peter O'Toole</div><img src="images/nominees/peter-o-toole.jpg"></li>
+            <li id="pacino" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Al Pacino</div><img src="images/nominees/al-pacino.jpg"></li>
+            <li id="page" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Geraldine Page</div><img src="images/nominees/geraldine-page.jpg"></li>
+            <li id="bergman" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Ingrid Bergman</div><img src="images/nominees/ingrid-bergman.jpg"></li>
+            <li id="blanchett" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Cate Blanchett</div><img src="images/nominees/cate-blanchett.jpg"></li>
+            <li id="burton" class="men nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Richard Burton</div><img src="images/nominees/richard-burton.jpg"></li>
+            <li id="dench" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Judi Dench</div><img src="images/nominees/judi-dench.jpg"></li>
+            <li id="deniro" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Robert De Niro</div><img src="images/nominees/robert-de-niro.jpg"></li>
+            <li id="duvall" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Robert Duvall</div><img src="images/nominees/robert-duvall.jpg"></li>
+            <li id="fonda" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jane Fonda</div><img src="images/nominees/jane-fonda.jpg"></li>
+            <li id="garson" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Greer Garson</div><img src="images/nominees/greer-garson.jpg"></li>
+            <li id="hoffman" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Dustin Hoffman</div><img src="images/nominees/dustin-hoffman.jpg"></li>
+            <li id="winslet" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Kate Winslet</div><img src="images/nominees/kate-winslet.jpg"></li>
+            <li id="bridges" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jeff Bridges</div><img src="images/nominees/jeff-bridges.jpg"></li>
+            <li id="burstyn" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Ellen Burstyn</div><img src="images/nominees/ellen-burstyn.jpg"></li>
+            <li id="caine" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Michael Caine</div><img src="images/nominees/michael-caine.jpg"></li>
+            <li id="close" class="women nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Glenn Close</div><img src="images/nominees/glenn-close.jpg"></li>
+            <li id="kerr" class="women nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Deborah Kerr</div><img src="images/nominees/deborah-kerr.jpg"></li>
+            <li id="lange" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jessica Lange</div><img src="images/nominees/jessica-lange.jpg"></li>
+            <li id="redgrave" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Vanessa Redgrave</div><img src="images/nominees/vanessa-redgrave.jpg"></li>
+            <li id="ritter" class="women nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Thelma Ritter</div><img src="images/nominees/thelma-ritter.jpg"></li>
+            <li id="smith" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Maggie Smith</div><img src="images/nominees/maggie-smith.jpg"></li>
+            <li id="spacek" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Sissy Spacek</div><img src="images/nominees/sissy-spacek.jpg"></li>
+            <li id="washington" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Denzel Washington</div><img src="images/nominees/denzel-washington.jpg"></li>
+            <li id="adams" class="women nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Amy Adams</div><img src="images/nominees/amy-adams.jpg"></li>
+            <li id="bancroft" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Anne Bancroft</div><img src="images/nominees/anne-bancroft.jpg"></li>
+            <li id="cooper" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Gary Cooper</div><img src="images/nominees/gary-cooper.jpg"></li>
+            <li id="day-lewis" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Daniel Day-Lewis</div><img src="images/nominees/daniel-day-lewis.jpg"></li>
+            <li id="de-havilland" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Olivia de Havilland</div><img src="images/nominees/olivia-de-havilland.jpg"></li>
+            <li id="dicaprio" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Leonardo DiCaprio</div><img src="images/nominees/leonardo-dicaprio.jpg"></li>
+            <li id="dunne" class="women nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Irene Dunne</div><img src="images/nominees/irene-dunne.jpg"></li>
+            <li id="finney" class="men nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Albert Finney</div><img src="images/nominees/albert-finney.jpg"></li>
+            <li id="freeman" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Morgan Freeman</div><img src="images/nominees/morgan-freeman.jpg"></li>
+            <li id="hackman" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Gene Hackman</div><img src="images/nominees/gene-hackman.jpg"></li>
+            <li id="hanks" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Tom Hanks</div><img src="images/nominees/tom-hanks.jpg"></li>
+            <li id="hayward" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Susan Hayward</div><img src="images/nominees/susan-hayward.jpg"></li>
+            <li id="ahepburn" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Audrey Hepburn</div><img src="images/nominees/audrey-hepburn.jpg"></li>
+            <li id="jones" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Jennifer Jones</div><img src="images/nominees/jennifer-jones.jpg"></li>
+            <li id="kennedy" class="men nominee">
+                <div class="overlay"></div>
+                <div id="nominee">Arthur Kennedy</div><img src="images/nominees/arthur-kennedy.jpg"></li>
+            <li id="maclaine" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Shirley MacLaine</div><img src="images/nominees/shirley-maclaine.jpg"></li>
+            <li id="march" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Fredric March</div><img src="images/nominees/fredric-march.jpg"></li>
+            <li id="moore" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Julianne Moore</div><img src="images/nominees/julianne-moore.jpg"></li>
+            <li id="peck" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Gregory Peck</div><img src="images/nominees/gregory-peck.jpg"></li>
+            <li id="penn" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">Sean Penn</div><img src="images/nominees/sean-penn.jpg"></li>
+            <li id="sarandon" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Susan Sarandon</div><img src="images/nominees/susan-hayward.jpg"></li>
+            <li id="shearer" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Norma Shearer</div><img src="images/nominees/norma-shearer.jpg"></li>
+            <li id="stewart" class="men nominee">
+                <div class="overlay"></div>
+                <div id="winner">James Stewart</div><img src="images/nominees/james-stewart.jpg"></li>
+            <li id="taylor" class="women nominee">
+                <div class="overlay"></div>
+                <div id="winner">Elizabeth Taylor</div><img src="images/nominees/elizabeth-taylor.jpg"></li>
+        </ul>
+    </main>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
