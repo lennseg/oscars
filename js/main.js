@@ -16,7 +16,7 @@ $("#nominees-button").click(function () {
 
 var actors;
 
-kennedy = document.getElementById("kennedy")
-kennedy.addEventListener("click",function(){
-  console.log(actors["kennedy"].nominations)
+otoole = document.getElementById("otoole")
+otoole.addEventListener("click",function(){
+  console.log(actors["otoole"].nominations)
 })
