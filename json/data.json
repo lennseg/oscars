@@ -76,7 +76,7 @@ var actors = {
         name: "Al Pacino",
         nominations: ["The Godfather (1972)", "Serpico (1973)", "The Godfather Part II (1974)", "Dog Day Afternoon (1975)", "Dog Day Afternoon (1975)", "...And Justice for All (1979)", "Dick Tracy (1979)", "Scent of a Woman (1992)", "Glengarry Glen Ross (1992)"],
         wins: ["Scent of a Woman (1992)"],
-        genres: ["Drama (69)", "Documentary (51)", "News (36)", "Crime (33)", "Talk-Show (32)", "Thriller (30)", "Short (27)", "Comedy (24)", "Biography (19)", "Romance (17)" "Family (15)", "Music (15)", "Mystery (9)", "Reality-TV (7)", "Fantasy (6)", "Action (5)", "History (5)", "Sport (5)", "Adventure (2)", "Horror (1)", "Sci-Fi (1)", "War (1)"]
+        genres: ["Drama (69)", "Documentary (51)", "News (36)", "Crime (33)", "Talk-Show (32)", "Thriller (30)", "Short (27)", "Comedy (24)", "Biography (19)", "Romance (17)", "Family (15)", "Music (15)", "Mystery (9)", "Reality-TV (7)", "Fantasy (6)", "Action (5)", "History (5)", "Sport (5)", "Adventure (2)", "Horror (1)", "Sci-Fi (1)", "War (1)"]
     },
     
     page: {
@@ -167,7 +167,7 @@ var actors = {
         name: "Ellen Burstyn",
         nominations: ["The Last Picture Show (1971)", "The Exorcist (1973)", "Alice Doesn't Live Here Anymore (1974)", "Same Time, Next Year (1978)", "Resurrection (1980)", "Requiem for a Dream (2000)"],
         wins: ["Alice Doesn't Live Here Anymore (1974)"],
-        genres: ["Drama (232)", "Comedy (125)", "Talk-Show (49)", "Documentary (47)", "Romance (45)", "Family (34)", "Crime (29)", "Western (26)", "Mystery (22)", "Music (18)", "Biography (16)", "Thriller (16)", "Action (12)", "Short (10)", "Adventure (9)", "News (9)", "Fantasy (8)", "Sci-Fi (7)", "History (6)", "Sport (5)", "Animation (4)" "Reality-TV (4)", "War (3)", "Horror (2)", "Musical (2)"]
+        genres: ["Drama (232)", "Comedy (125)", "Talk-Show (49)", "Documentary (47)", "Romance (45)", "Family (34)", "Crime (29)", "Western (26)", "Mystery (22)", "Music (18)", "Biography (16)", "Thriller (16)", "Action (12)", "Short (10)", "Adventure (9)", "News (9)", "Fantasy (8)", "Sci-Fi (7)", "History (6)", "Sport (5)", "Animation (4)", "Reality-TV (4)", "War (3)", "Horror (2)", "Musical (2)"]
     },
     
     caine: {
@@ -228,176 +228,176 @@ var actors = {
     
     washington: {
         name: "Denzel Washington",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Cry Freedom (1987)", "Glory (1989)", "Malcolm X (1992)", "The Hurricane (1999)", "Training Day (2001)", "Flight (2012)", "Fences (2016)"],
+        wins: ["Glory (1989)", "Training Day (2001)"],
+        genres: ["Drama (189)", "Talk-Show (186)", "News (127)", "Documentary (96)", "Comedy (94)", "Music (77)", "Short (56)", "Biography (32)", "Thriller (27)", "Family (26)", "Crime (22)", "Action (17)", "Sport (14)", "Mystery (11)", "Romance (11)", "History (8)", "Fantasy (6)", "Reality-TV (6)", "Adventure (5)", "Animation (5)", "Sci-Fi (5)", "War (5)", "Game-Show (3)", "Western (1)"]
     },
     
     adams: {
         name: "Amy Adams",
-        nominations: [],
+        nominations: ["Junebug (2005)", "Doubt (2008)", "The Fighter (2010)", "The Master (2012)", "American Hustle (2013)"],
         wins: [],
-        genres: []
+        genres: ["Talk-Show (126)", "Comedy (96)", "News (73)", "Drama (57)", "Music (46)", "Documentary (28)", "Romance (25)", "Short (25)", "Thriller (13)", "Fantasy (12)", "Adventure (11)", "Reality-TV (10)", "Action (9)", "Crime (9)", "Sci-Fi (9)", "Animation (8)", "Family (8)", "Biography (6)", "Mystery (5)", "Sport (5)", "Musical (4)", "Game-Show (2)", "History (1)", "Horror (1)"]
     },
     
     bancroft: {
         name: "Anne Bancroft",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["The Miracle Worker (1962)", "The Pumpkin Eater (1964)", "The Graduate (1967)", "The Turning Point (1977)", "Agnes of God (1985)"],
+        wins: ["The Miracle Worker (1962)"],
+        genres: ["Drama (99)", "Comedy (84)", "Family (30)", "Talk-Show (30)", "Romance (25)", "Music (24)", "Crime (17)", "Mystery (17)", "Biography (16)", "Documentary (16)", "Thriller (16)", "History (15)", "War (12)", "Adventure (11)", "Western (9)", "News (8)", "Reality-TV (7)", "Film-Noir (6)", "Game-Show (6)", "Musical (5)", "Action (4)", "Animation (4)", "Sci-Fi (4)", "Fantasy (3)", "Horror (3)", "Short (3)", "Sport (2)"]
     },
     
     cooper: {
         name: "Gary Cooper",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Mr. Deeds Goes to Town (1936)", "Sergeant York (1941)", "The Pride of the Yankees (1942)", "For Whom the Bell Tolls (1943)", "High Noon (1952)"],
+        wins: ["Sergeant York (1941)", "High Noon (1952)"],
+        genres: ["Drama (61)", "Romance (61)", "Western (41)", "Comedy (38)", "War (22)", "Adventure (21)", "Short (21)", "Documentary (17)", "Action (12)", "History (10)", "Music (10)", "Musical (8)", "Thriller (7)", "Crime (6)", "Family (6)", "Biography (5)", "Fantasy (3)", "Film-Noir (3)", "News (3)", "Game-Show (2)", "Mystery (2)", "Talk-Show (2)", "Sport (1)"]
     },
     
     lewis: {
         name: "Daniel Day-Lewis",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["My Left Foot (1989)", "In the Name of the Father (1993)", "Gangs of New York (2002)", "There Will Be Blood (2007)", "Lincoln (2012)"],
+        wins: ["My Left Foot (1989)", "There Will Be Blood (2007)", "Lincoln (2012)"],
+        genres: ["Drama (41)", "News (36)", "Talk-Show (33)", "Documentary (22)", "Comedy (13)", "Romance (11)", "Family (8)", "Music (8)", "History (6)", "Biography (5)", "Short (3)", "War (3)", "Action (2)", "Adventure (2)", "Crime (1)", "Musical (1)", "Sci-Fi (1)", "Sport (1)", "Thriller (1)"]
     },
     
     havilland: {
         name: "Olivia de Havilland",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Gone with the Wind (1939)", "Hold Back the Dawn (1941)", "To Each His Own (1946)", "The Snake Pit (1948)", "The Heiress (1949)"],
+        wins: ["To Each His Own (1946)", "The Heiress (1949)"],
+        genres: ["Drama (47)", "Comedy (44)", "Romance (41)", "Documentary (33)", "Family (32)", "Talk-Show (27)", "History (21)", "Game-Show (18)", "Music (16)", "War (14)", "Biography (11)", "News (10)", "Adventure (9)", "Short (8)", "Thriller (8)", "Western (7)", "Action (6)", "Mystery (6)", "Musical (5)", "Crime (4)", "Horror (4)", "Reality-TV (4)", "Film-Noir (2)", "Fantasy (1)", "Sport (1)"]
     },
     
     dicaprio: {
         name: "Leonardo DiCaprio",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["What's Eating Gilbert Grape (1993)", "The Aviator (2004)", "Blood Diamond (2006)", "The Wolf of Wall Street (2013)", "The Revenant (2015)"],
+        wins: ["The Revenant (2015)"],
+        genres: ["News (121)", "Drama (79)", "Documentary (78)", "Comedy (67)", "Talk-Show (65)", "Family (42)", "Short (40)", "Music (28)", "Biography (27)", "Thriller (26)", "Crime (18)", "Romance (14)", "Adventure (12)", "Action (8)", "History (8)", "Reality-TV (7)", "Sci-Fi (7)", "Mystery (6)", "Game-Show (4)", "Horror (4)", "Sport (4)", "Western (3)", "Fantasy (2)", "War (2)"]
     },
     
     dunne: {
         name: "Irene Dunne",
-        nominations: [],
+        nominations: ["Cimarron (1930/31)", "Theodora Goes Wild (1936)", "The Awful Truth (1937)", "Love Affair (1939)", "I Remember Mama (1948)"],
         wins: [],
-        genres: []
+        genres: ["Drama (73)", "Comedy (61)", "Romance (32)", "Musical (12)", "Music (11)", "Family (10)", "Western (7)", "Game-Show (5)", "Biography (4)", "Documentary (4)", "Short (4)", "Adventure (2)", "Fantasy (2)", "War (2)", "History (1)", "Horror (1)", "Mystery (1)", "Talk-Show (1)"]
     },
     
     finney: {
         name: "Albert Finney",
-        nominations: [],
+        nominations: ["Tom Jones (1963)", "Murder on the Orient Express (1974)", "The Dresser (1983)", "Under the Volcano (1984)", "Erin Brockovich (2000)"],
         wins: [],
-        genres: []
+        genres: ["Drama (94)", "Comedy (44)", "Documentary (20)", "Thriller (20)", "Family (19)", "Talk-Show (18)", "Music (17)", "Romance (12)", "Crime (11)", "Sci-Fi (9)", "Mystery (8)", "Short (8)", "Biography (7)", "Musical (7)", "Adventure (6)", "Fantasy (5)", "History (5)", "Horror (5)", "News (5)", "Action (3)", "Animation (3)", "Game-Show (2)", "Reality-TV (2)", "War (2)", "Sport (1)"]
     },
     
     freeman: {
         name: "Morgan Freeman",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Street Smart (1987)", "Driving Miss Daisy (1989)", "The Shawshank Redemption (1994)", "Million Dollar Baby (2004)", "Invictus (2009)"],
+        wins: ["Million Dollar Baby (2004)"],
+        genres: ["Comedy (897)", "Family (818)", "Documentary (245)", "Talk-Show (215)", "Drama (153)", "News (101)", "Music (83)", "Short (66)", "History (62)", "Crime (42)", "Biography (40)", "Thriller (38)", "Action (33)", "Adventure (27)", "Romance (22)", "Mystery (20)", "War (17)", "Reality-TV (13)", "Sci-Fi (11)", "Sport (11)", "Fantasy (10)", "Game-Show (6)", "Horror (4)", "Animation (3)", "Musical (2)", "Western (1)"]
     },
     
     hackman: {
         name: "Gene Hackman",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Bonnie and Clyde (1967)", "I Never Sang for My Father (1970)", "The French Connection (1971)", "Mississippi Burning (1988)", "Unforgiven (1992)"],
+        wins: ["The French Connection (1971)", "Unforgiven (1992)"],
+        genres: ["Drama (98)", "Documentary (69)", "Comedy (60)", "Crime (42)", "Talk-Show (42)", "Thriller (37)", "Action (29)", "Short (26)", "Music (24)", "Biography (17)", "Adventure (15)", "Family (13)", "News (13)", "Romance (13)", "War (9)", "Western (9)", "Mystery (8)", "History (7)", "Sci-Fi (7)", "Sport (7)", "Reality-TV (3)", "Game-Show (2)", "Musical (2)", "Animation (1)", "Fantasy (1)"]
     },
     
     hanks: {
         name: "Tom Hanks",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Big (1988)", "Philadelphia (1993)", "Forrest Gump (1994)", "Saving Private Ryan (1998)", "Cast Away (2000)"],
+        wins: ["Philadelphia (1993)", "Forrest Gump (1994)"],
+        genres: ["Comedy (336)", "Talk-Show (254)", "Documentary (227)", "News (205)", "Drama (195)", "Music (167)", "History (113)", "Short (104)", "Action (60)", "Biography (58)", "Family (58)", "Fantasy (43)", "War (38)", "Animation (37)", "Thriller (32)", "Adventure (30)", "Romance (27)", "Sci-Fi (25)", "Crime (16)", "Reality-TV (11)", "Mystery (10)", "Sport (10)", "Musical (7)", "Horror (6)", "Game-Show (3)"]
     },
     
     hayward: {
         name: "Susan Hayward",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Smash-Up, The Story of a Woman (1947)", "My Foolish Heart (1949)", "With a Song in My Heart (1952)", "I'll Cry Tomorrow (1955)", "I Want to Live! (1958)"],
+        wins: ["I Want to Live! (1958)"],
+        genres: ["Drama (49)", "Romance (26)", "Comedy (14)", "Adventure (10)", "Action (8)", "Music (8)", "War (8)", "Western (8)", "Biography (7)", "Film-Noir (7)", "Short (7)", "Crime (6)", "Talk-Show (6)", "Documentary (5)", "Family (4)", "History (4)", "Musical (4)", "Thriller (4)", "Mystery (2)", "Sport (2)", "Fantasy (1)"]
     },
     
     ahepburn: {
         name: "Audrey Hepburn",
         nominations: ["Roman Holiday (1953)", "Sabrina (1954)", "The Nun's Story (1959)", "Breakfast at Tiffany's (1961)", "Wait until Dark (1967)"],
         wins: ["Roman Holiday (1953)"],
-        genres: []
+        genres: ["Comedy (41)", "Talk-Show (30)", "Documentary (29)", "Drama (25)", "Romance (24)", "Family (21)", "Music (19)", "News (18)", "Biography (7)", "Crime (6)", "Musical (5)", "Short (5)", "Adventure (3)", "Thriller (3)", "Game-Show (2)", "Mystery (2)", "Fantasy (1)", "History (1)", "Horror (1)", "Reality-TV (1)", "Sci-Fi (1)", "War (1)", "Western (1)"]
     },
     
     jones: {
         name: "Jennifer Jones",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["The Song of Bernadette (1943)", "Since You Went Away (1944)", "Love Letters (1945)", "Duel in the Sun (1946)", "Love Is a Many-Splendored Thing (1955)"],
+        wins: ["The Song of Bernadette (1943)"],
+        genres: ["Drama (25)", "Romance (18)", "Biography (5)", "Documentary (5)", "Comedy (4)", "War (4)", "Action (3)", "Crime (3)", "Family (3)", "Mystery (3)", "Adventure (2)", "History (2)", "Short (2)", "Western (2)", "Fantasy (1)", "Music (1)", "Thriller (1)"]
     },    
     
     kennedy: {
         name: "Arthur Kennedy",
-        nominations: [{1949: "Champion"}, {1951: "Bright Victory"}, {1955: "Trial"}, {1957: "Peyton Place"}, {1958: "Some Came Running"}],
+        nominations: ["Champion (1949)", "Bright Victory (1951)", "Trial (1955)", "Peyton Place (1957)", "Some Came Running (1958)"],
         wins: [],
-        genres: ["Drama", "Crime", "Thriller", "War", "Western", "Comedy", "Romance", "Action", "Adventure", "Biography", "Mystery", "History", "Documentary", "Film-Noir", "Musical", "Short", "Music", "Horror", "Sport", "Family", "Sci-Fi", "Fantasy"]
+        genres: ["Drama (103)", "Crime (38)", "Thriller (19)", "War (18)", "Western (18)", "Comedy (17)", "Romance (15)", "Action (13)", "Adventure (11)", "Biography (11)", "Mystery (11)", "History (10)", "Documentary (8)", "Film-Noir (8)", "Musical (8)", "Short (6)", "Music (5)", "Horror (4)", "Sport (4)", "Family (2)", "Sci-Fi (2)", "Fantasy (1)"]
     }, 
     
     maclaine: {
         name: "Shirley MacLaine",
-        nominations: [{1958: "Some Came Running"}, {1960: "The Apartment"}, {1963: "Irma La Douce"}, {1977: "The Turning Point"}, {1983: "Terms of Endearment"}],
-        wins: [{1983: "Terms of Endearment"}],
-        genres: ["Talk-Show", "Comedy", "Documentary", "Music", "Drama", "News", "Biography", "Romance", "Family", "Musical", "History", "Reality-TV", "Adventure", "Short", "Fantasy", "Crime", "Thriller", "Action", "Animation", "Sci-Fi", "Western", "Horror", "Mystery", "War"]
+        nominations: ["Some Came Running (1958)", "The Apartment (1960)", "Irma La Douce (1963)", "The Turning Point (1977)", "Terms of Endearment (1983)"],
+        wins: ["Terms of Endearment (1983)"],
+        genres: ["Talk-Show (140)", "Comedy (130)", "Documentary (92)", "Music (86)", "Drama (65)", "News (41)", "Biography (40)", "Romance (37)", "Family (32)", "Musical (19)", "History (16)", "Reality-TV (14)", "Adventure (10)", "Short (10)", "Fantasy (8)", "Crime (5)", "Thriller (3)", "Action (2)", "Animation (2)", "Sci-Fi (2)", "Western (2)", "Horror (1)", "Mystery (1)", "War (1)"]
     },
     
     march: {
         name: "Fredric March",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["The Royal Family of Broadway (1930/31)", "Dr. Jekyll and Mr. Hyde (1931/32)", "A Star Is Born (1937)", "The Best Years of Our Lives (1946)", "Death of a Salesman (1951)"],
+        wins: ["Dr. Jekyll and Mr. Hyde (1931/32)", "The Best Years of Our Lives (1946)"],
+        genres: ["Drama (96)", "Comedy (35)", "Romance (31)", "Documentary (20)", "History (16)", "Family (13)", "Short (10)", "War (9)", "Biography (8)", "Adventure (5)", "Action (4)", "Film-Noir (3)", "Thriller (3)", "Crime (2)", "Fantasy (2)", "Game-Show (2)", "News (2)", "Horror (1)", "Mystery (1)", "Sci-Fi (1)", "Western (1)"]
     },
     
     moore: {
         name: "Julianne Moore",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Boogie Nights (1997)", "The End of the Affair (1999)", "Far from Heaven (2002)", "The Hours (2002)", "Still Alice (2014)"],
+        wins: ["Still Alice (2014)"],
+        genres: ["Talk-Show (183)", "Comedy (132)", "News (97)", "Drama (91)", "Documentary (67)", "Music (56)", "Romance (42)", "Short (31)", "Crime (23)", "Thriller (18)", "Mystery (15)", "Biography (12)", "Action (10)", "Sci-Fi (10)", "Reality-TV (9)", "Family (8)", "Adventure (6)", "Fantasy (6)", "Horror (6)", "Animation (4)", "History (3)", "Game-Show (2)", "Musical (1)"]
     },
     
     peck: {
         name: "Gregory Peck",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["The Keys of the Kingdom (1945)", "The Yearling (1946)", "Gentleman's Agreement (1947)", "Twelve O'Clock High (1949)", "To Kill a Mockingbird (1962)"],
+        wins: ["To Kill a Mockingbird (1962)"],
+        genres: ["Documentary (73)", "Drama (45)", "Music (41)", "Comedy (40)", "Talk-Show (27)", "History (22)", "Romance (20)", "Family (19)", "Biography (17)", "War (17)", "Adventure (16)", "Reality-TV (14)", "Thriller (13)", "Western (11)", "Action (9)", "Sport (7)", "Crime (6)", "Short (6)", "News (5)", "Mystery (4)", "Horror (2)", "Musical (2)", "Sci-Fi (2)", "Film-Noir (1)"]
     },
     
     penn: {
         name: "Sean Penn",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Dead Man Walking (1995)", "Sweet and Lowdown (1999)", "I Am Sam (2001)", "Mystic River (2003)", "Milk (2008)"],
+        wins: ["Mystic River (2003)", "Milk (2008)"],
+        genres: ["Documentary (77)", "Comedy (72)", "Talk-Show (69)", "Drama (68)", "News (54)", "Music (38)", "Biography (29)", "Romance (27)", "Crime (25)", "Thriller (25)", "Short (22)", "History (10)", "Mystery (9)", "Adventure (8)", "Action (6)", "Family (5)", "War (5)", "Animation (4)", "Fantasy (4)", "Reality-Tv (4)", "Western (3)", "Sci-Fi (1)", "Sport (1)"]
     },
-    
+                 
     sarandon: {
         name: "Susan Sarandon",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Atlantic City (1981)", "Thelma & Louise (1991)", "Lorenzo's Oil (1992)", "The Client (1994)", "Dead Man Walking (1995)"],
+        wins: ["Dead Man Walking (1995)"],
+        genres: ["Talk-Show (279)", "Comedy (262)", "Documentary (185)", "Drama (147)", "Music (103)", "News (99)", "Biography (57)", "Romance (44)", "Family (38)", "History (30)", "Short (27)", "Animation (23)", "Adventure (20)", "Thriller (20)", "Fantasy (19)", "Sci-Fi (15)", "Crime (13)", "Sport (13)", "Mystery (12)", "War (11)", "Reality-TV (8)", "Action (5)", "Horror (5)", "Musical (5)", "Game-Show (2)"]
     },
     
     shearer: {
         name: "Norma Shearer",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["The Divorcee (1929/30)", "Their Own Desire (1929/30)", "A Free Soul (1930/31)", "The Barretts of Wimpole Street (1934)", "Romeo and Juliet (1936)", "Marie Antoinette (1938)"],
+        wins: ["The Divorcee (1929/30)"],
+        genres: ["Drama (49)", "Comedy (23)", "Romance (23)", "Short (17)", "Documentary (8)", "Musical (3)", "Biography (2)", "Adventure (1)", "Crime (1)", "Family (1)", "History (1)", "Music (1)", "Sport (1)", "Thriller (1)"]
     },
     
     stewart: {
         name: "James Stewart",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Mr. Smith Goes to Washington (1939)", "The Philadelphia Story (1940)", "It's a Wonderful Life (1946)", "Harvey (1950)", "Anatomy of a Murder (1959)"],
+        wins: ["The Philadelphia Story (1940)"],
+        genres: ["Comedy (167)", "Drama (94)", "Documentary (76)", "Talk-Show (71)", "Music (67)", "Romance (48)", "Family (33)", "Biography (29)", "Western (24)", "Short (22)", "History (20)", "Crime (19)", "Mystery (17)", "War (17)", "Musical (14)", "Reality-TV (12)", "Thriller (12)", "News (11)", "Adventure (10)", "Action (8)", "Game-Show (7)", "Fantasy (6)", "Sport (3)", "Film-Noir (2)", "Animation (1)", "Sci-Fi (1)"]
     },
     
     taylor: {
         name: "Elizabeth Taylor",
-        nominations: [],
-        wins: [],
-        genres: []
+        nominations: ["Raintree County (1957)", "Cat on a Hot Tin Roof (1958)", "Suddenly, Last Summer (1959)", "Butterfield 8 (1960)", "Who's Afraid of Virginia Woolf? (1966)"],
+        wins: ["Butterfield 8 (1960)", "Who's Afraid of Virginia Woolf? (1966)"],
+        genres: ["Documentary (86)", "Comedy (80)", "Drama (79)", "Talk-Show (69)", "News (50)", "Romance (47)", "Family (46)", "Music (43)", "Biography (31)", "Short (21)", "History (18)", "War (14)", "Mystery (13)", "Thriller (11)", "Animation (9)", "Adventure (6)", "Crime (6)", "Reality-TV (6)", "Musical (5)", "Western (4)", "Fantasy (2)", "Game-Show (2)", "Horror (2)", "Sport (2)", "Action (1)"]
     }  
 }
