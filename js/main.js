@@ -13,13 +13,16 @@ $("#nominees-button").click(function () {
 });
 
 /* objects */
-
-var actors;
-
-streep = document.getElementById("streep")
+var actors = document.querySelector("ul");
+    
 streep.addEventListener("click",function(){
-  console.log(actors["streep"].nominations)
-})
+console.log(actors[event.target.id]);
+    
+document.querySelector("streep").textContent = actors[event.target.id].nominations;
+}) 
+
+
+/* 
 
 khepburn = document.getElementById("khepburn")
 khepburn.addEventListener("click",function(){
@@ -299,4 +302,4 @@ stewart.addEventListener("click",function(){
 taylor = document.getElementById("taylor")
 taylor.addEventListener("click",function(){
   console.log(actors["taylor"].nominations)
-})
+}) */
