@@ -1,5 +1,5 @@
-{
-  "streep": [
+var actors = {
+  "streep": 
     {
       "name": "Meryl Streep",
       "nominations": [
@@ -57,9 +57,9 @@
         "Western (1)",
         "EVERYTHING!"
       ]
-    }
-  ],
-  "khepburn": [
+    },
+    
+  "khepburn":
     {
       "name": "Katherine Hepburn",
       "nominations": [
@@ -106,9 +106,9 @@
         "Musical (1)",
         "Sci-Fi (1)"
       ]
-    }
-  ],
-  "nicholson": [
+    },
+    
+  "nicholson": 
     {
       "name": "Jack Nicholson",
       "nominations": [
@@ -158,9 +158,9 @@
         "War (2)",
         "Sci-Fi (1)"
       ]
-    }
-  ],
-  "davis": [
+    },
+    
+  "davis":
     {
       "name": "Bette Davis",
       "nominations": [
@@ -207,9 +207,9 @@
         "Sci-Fi (1)",
         "War (1)"
       ]
-    }
-  ],
-  "olivier": [
+    },
+    
+  "olivier":
     {
       "name": "Laurence Olivier",
       "nominations": [
@@ -250,9 +250,9 @@
         "Fantasy (1)",
         "Horror (1)"
       ]
-    }
-  ],
-  "newman": [
+    },
+    
+  "newman":
     {
       "name": "Paul Newman",
       "nominations": [
@@ -297,9 +297,9 @@
         "Horror (3)",
         "Fantasy (1)"
       ]
-    }
-  ],
-  "tracy": [
+    },
+    
+  "tracy":
     {
       "name": "Spencer Tracy",
       "nominations": [
@@ -342,9 +342,9 @@
         "Reality-TV (1)",
         "Sci-Fi (1)"
       ]
-    }
-  ],
-  "brando": [
+    },
+      
+  "brando":
     {
       "name": "Marlon Brando",
       "nominations": [
@@ -385,9 +385,9 @@
         "Musical (1)",
         "Reality-TV (1)"
       ]
-    }
-  ],
-  "lemmon": [
+    },
+    
+  "lemmon": 
     {
       "name": "Jack Lemmmon",
       "nominations": [
@@ -431,9 +431,9 @@
         "Sport (3)",
         "Action (2)"
       ]
-    }
-  ],
-  "otoole": [
+    },
+    
+  "otoole":
     {
       "name": "Peter O'Toole",
       "nominations": [
@@ -475,9 +475,9 @@
         "Sport (2)",
         "Western (1)"
       ]
-    }
-  ],
-  "pacino": [
+    },
+    
+  "pacino": 
     {
       "name": "Al Pacino",
       "nominations": [
@@ -518,9 +518,9 @@
         "Sci-Fi (1)",
         "War (1)"
       ]
-    }
-  ],
-  "page": [
+    },
+    
+  "page": 
     {
       "name": "Geraldine Page",
       "nominations": [
@@ -563,9 +563,9 @@
         "Reality-TV (1)",
         "Sport (1)"
       ]
-    }
-  ],
-  "bergman": [
+    },
+    
+  "bergman":
     {
       "name": "Ingrid Bergman",
       "nominations": [
@@ -607,9 +607,9 @@
         "Sci-Fi (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "blanchett": [
+    },
+    
+  "blanchett": 
     {
       "name": "Cate Blanchett",
       "nominations": [
@@ -653,9 +653,9 @@
         "Sci-Fi (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "burton": [
+    },
+    
+  "burton":
     {
       "name": "Richard Burton",
       "nominations": [
@@ -693,9 +693,9 @@
         "Sci-Fi (2)",
         "Reality-TV (1)"
       ]
-    }
-  ],
-  "dench": [
+    },
+    
+  "dench":
     {
       "name": "Judi Dench",
       "nominations": [
@@ -737,9 +737,9 @@
         "Reality-TV (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "deniro": [
+    },
+    
+  "deniro":
     {
       "name": "Robert De Niro",
       "nominations": [
@@ -781,9 +781,9 @@
         "Reality-TV (3)",
         "War (2)"
       ]
-    }
-  ],
-  "duvall": [
+    },
+    
+    "duvall": 
     {
       "name": "Robert Duvall",
       "nominations": [
@@ -824,9 +824,9 @@
         "Family (5)",
         "Musical (2)"
       ]
-    }
-  ],
-  "fonda": [
+    },
+    
+  "fonda":
     {
       "name": "Jane Fonda",
       "nominations": [
@@ -870,9 +870,9 @@
         "War (2)",
         "Horror (1)"
       ]
-    }
-  ],
-  "garson": [
+    },
+    
+  "garson":
     {
       "name": "Greer Garson",
       "nominations": [
@@ -908,9 +908,9 @@
         "Fantasy (1)",
         "News (1)"
       ]
-    }
-  ],
-  "hoffman": [
+    },
+    
+  "hoffman": 
     {
       "name": "Dustin Hoffman",
       "nominations": [
@@ -954,9 +954,9 @@
         "Horror (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "winslet": [
+    },
+    
+  "winslet":
     {
       "name": "Kate Winslet",
       "nominations": [
@@ -996,9 +996,9 @@
         "Mystery (2)",
         "War (1)"
       ]
-    }
-  ],
-  "bridges": [
+    },
+    
+  "bridges":
     {
       "name": "Jeff Bridges",
       "nominations": [
@@ -1039,9 +1039,9 @@
         "Horror (3)",
         "War (1)"
       ]
-    }
-  ],
-  "burstyn": [
+    },
+    
+  "burstyn":
     {
       "name": "Ellen Burstyn",
       "nominations": [
@@ -1082,9 +1082,9 @@
         "Horror (2)",
         "Musical (2)"
       ]
-    }
-  ],
-  "caine": [
+    },
+    
+  "caine":
     {
       "name": "Michael Caine",
       "nominations": [
@@ -1126,9 +1126,9 @@
         "Animation (3)",
         "Musical (1)"
       ]
-    }
-  ],
-  "close": [
+    },
+    
+  "close":
     {
       "name": "Glenn Close",
       "nominations": [
@@ -1168,9 +1168,9 @@
         "Horror (2)",
         "Western (1)"
       ]
-    }
-  ],
-  "kerr": [
+    },
+    
+  "kerr":
     {
       "name": "Deborah Kerr",
       "nominations": [
@@ -1205,9 +1205,9 @@
         "Crime (1)",
         "Musical (1)"
       ]
-    }
-  ],
-  "lange": [
+    },
+    
+  "lange":
     {
       "name": "Jessica Lange",
       "nominations": [
@@ -1248,9 +1248,9 @@
         "Sport (1)",
         "War (1)"
       ]
-    }
-  ],
-  "redgrave": [
+    },
+    
+  "redgrave":
     {
       "name": "Vanessa Redgrave",
       "nominations": [
@@ -1291,9 +1291,9 @@
         "Sport (3)",
         "Reality-TV (1)"
       ]
-    }
-  ],
-  "ritter": [
+    },
+    
+  "ritter":
     {
       "name": "Thelma Ritter",
       "nominations": [
@@ -1324,9 +1324,9 @@
         "Sport (1)",
         "War (1)"
       ]
-    }
-  ],
-  "smith": [
+    },
+    
+  "smith":
     {
       "name": "Maggie Smith",
       "nominations": [
@@ -1365,9 +1365,9 @@
         "Animation (1)",
         "History (1)"
       ]
-    }
-  ],
-  "spacek": [
+    },
+    
+  "spacek":
     {
       "name": "Sissy Spacek",
       "nominations": [
@@ -1406,9 +1406,9 @@
         "Adventure (1)",
         "Reality-TV (1)"
       ]
-    }
-  ],
-  "washington": [
+    },
+    
+  "washington":
     {
       "name": "Denzel Washington",
       "nominations": [
@@ -1450,9 +1450,9 @@
         "Game-Show (3)",
         "Western (1)"
       ]
-    }
-  ],
-  "adams": [
+    },
+    
+  "adams":
     {
       "name": "Amy Adams",
       "nominations": [
@@ -1489,9 +1489,9 @@
         "History (1)",
         "Horror (1)"
       ]
-    }
-  ],
-  "bancroft": [
+    },
+    
+  "bancroft":
     {
       "name": "Anne Bancroft",
       "nominations": [
@@ -1533,9 +1533,9 @@
         "Short (3)",
         "Sport (2)"
       ]
-    }
-  ],
-  "cooper": [
+    },
+    
+  "cooper":
     {
       "name": "Gary Cooper",
       "nominations": [
@@ -1574,9 +1574,9 @@
         "Talk-Show (2)",
         "Sport (1)"
       ]
-    }
-  ],
-  "lewis": [
+    },
+    
+  "lewis":
     {
       "name": "Daniel Day-Lewis",
       "nominations": [
@@ -1612,9 +1612,9 @@
         "Sport (1)",
         "Thriller (1)"
       ]
-    }
-  ],
-  "havilland": [
+    },
+    
+  "havilland":
     {
       "name": "Olivia de Havilland",
       "nominations": [
@@ -1655,9 +1655,9 @@
         "Fantasy (1)",
         "Sport (1)"
       ]
-    }
-  ],
-  "dicaprio": [
+    },
+    
+  "dicaprio":
     {
       "name": "Leonardo DiCaprio",
       "nominations": [
@@ -1696,9 +1696,9 @@
         "Fantasy (2)",
         "War (2)"
       ]
-    }
-  ],
-  "dunne": [
+    },
+    
+  "dunne":
     {
       "name": "Irene Dunne",
       "nominations": [
@@ -1729,9 +1729,9 @@
         "Mystery (1)",
         "Talk-Show (1)"
       ]
-    }
-  ],
-  "finney": [
+    },
+    
+  "finney":
     {
       "name": "Albert Finney",
       "nominations": [
@@ -1769,9 +1769,9 @@
         "War (2)",
         "Sport (1)"
       ]
-    }
-  ],
-  "freeman": [
+    },
+    
+  "freeman":
     {
       "name": "Morgan Freeman",
       "nominations": [
@@ -1812,9 +1812,9 @@
         "Musical (2)",
         "Western (1)"
       ]
-    }
-  ],
-  "hackman": [
+    },
+    
+  "hackman":
     {
       "name": "Gene Hackman",
       "nominations": [
@@ -1855,9 +1855,9 @@
         "Animation (1)",
         "Fantasy (1)"
       ]
-    }
-  ],
-  "hanks": [
+    },
+    
+  "hanks":
     {
       "name": "Tom Hanks",
       "nominations": [
@@ -1898,9 +1898,9 @@
         "Horror (6)",
         "Game-Show (3)"
       ]
-    }
-  ],
-  "hayward": [
+    },
+    
+  "hayward":
     {
       "name": "Susan Hayward",
       "nominations": [
@@ -1936,9 +1936,9 @@
         "Sport (2)",
         "Fantasy (1)"
       ]
-    }
-  ],
-  "ahepburn": [
+    },
+    
+  "ahepburn":
     {
       "name": "Audrey Hepburn",
       "nominations": [
@@ -1976,9 +1976,9 @@
         "War (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "jones": [
+    },
+    
+  "jones":
     {
       "name": "Jennifer Jones",
       "nominations": [
@@ -2010,9 +2010,9 @@
         "Music (1)",
         "Thriller (1)"
       ]
-    }
-  ],
-  "kennedy": [
+    },
+    
+  "kennedy":
     {
       "name": "Arthur Kennedy",
       "nominations": [
@@ -2047,9 +2047,9 @@
         "Sci-Fi (2)",
         "Fantasy (1)"
       ]
-    }
-  ],
-  "maclaine": [
+    },
+    
+  "maclaine":
     {
       "name": "Shirley MacLaine",
       "nominations": [
@@ -2088,9 +2088,9 @@
         "Mystery (1)",
         "War (1)"
       ]
-    }
-  ],
-  "march": [
+    },
+    
+  "march":
     {
       "name": "Fredric March",
       "nominations": [
@@ -2127,9 +2127,9 @@
         "Sci-Fi (1)",
         "Western (1)"
       ]
-    }
-  ],
-  "moore": [
+    },
+    
+  "moore":
     {
       "name": "Julianne Moore",
       "nominations": [
@@ -2167,9 +2167,9 @@
         "Game-Show (2)",
         "Musical (1)"
       ]
-    }
-  ],
-  "peck": [
+    },
+    
+  "peck":
     {
       "name": "Gregory Peck",
       "nominations": [
@@ -2208,9 +2208,9 @@
         "Sci-Fi (2)",
         "Film-Noir (1)"
       ]
-    }
-  ],
-  "penn": [
+    },
+    
+  "penn":
     {
       "name": "Sean Penn",
       "nominations": [
@@ -2249,9 +2249,9 @@
         "Sci-Fi (1)",
         "Sport (1)"
       ]
-    }
-  ],
-  "sarandon": [
+    },
+    
+  "sarandon":
     {
       "name": "Susan Sarandon",
       "nominations": [
@@ -2291,9 +2291,9 @@
         "Musical (5)",
         "Game-Show (2)"
       ]
-    }
-  ],
-  "shearer": [
+    },
+    
+  "shearer":
     {
       "name": "Norma Shearer",
       "nominations": [
@@ -2323,9 +2323,9 @@
         "Sport (1)",
         "Thriller (1)"
       ]
-    }
-  ],
-  "stewart": [
+    },
+    
+  "stewart":
     {
       "name": "James Stewart",
       "nominations": [
@@ -2366,9 +2366,9 @@
         "Animation (1)",
         "Sci-Fi (1)"
       ]
-    }
-  ],
-  "taylor": [
+    },
+    
+  "taylor":
     {
       "name": "Elizabeth Taylor",
       "nominations": [
@@ -2410,5 +2410,4 @@
         "Action (1)"
       ]
     }
-  ]
 }
