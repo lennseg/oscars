@@ -46,6 +46,29 @@ p {
     border: none;
 }
 
+#closebutton {
+    font-size: 11px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 18px;
+    margin-right: 18px;
+}
+
+#closebutton:hover {
+    background-color: #FBBD18;
+    color: black;
+    border: none;
+}
+
+
 ul {
     display: block;
     margin: auto;
@@ -109,7 +132,13 @@ ul > #streep .overlay {
     color: black;
 }
 
-.modal {
+div.window {
     position: absolute;
-    z-index: 1000;
+    height: 400px;
+    width: 60%;
+    top: 200px;
+    left: 20%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
 }

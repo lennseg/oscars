@@ -11,11 +11,24 @@ $("#nominees-button").click(function () {
     $(".nominee").fadeIn(10);
 });
 
-/* testing data */
+/* loading data */
 
-var actors;
+var list = document.querySelector("ul");
 
-khepburn = document.getElementById("khepburn")
-khepburn.addEventListener("click",function(){
-  console.log(actors["khepburn"].films)
-})
+list.addEventListener("click", function (event) {
+    console.dir(event.target.parentElement.id);
+    document.querySelector("ms").textContent = "Test" + actors[event.target.id].wins;
+});
+
+var actors; /* div for data */
+
+//opens actor window
+streep = document.getElementById("streep")
+streep.addEventListener("click", function () {
+    console.log(actors["streep"].wins);
+    document.getElementById("ms").style.display = "block";
+});
+//closes actor window
+$("#closebutton").on("click", function () {
+    $("#ms").css('display', 'none');
+});

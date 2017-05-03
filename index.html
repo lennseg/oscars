@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Lennse Garcia">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Academy Outliers</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="css/main.css"> </head>
+<script type="text/javascript" src="data/data.json"></script>
 
 <body>
     <header>
@@ -192,11 +193,12 @@
                 <div class="overlay"></div>
                 <div id="winner">Elizabeth Taylor</div><img src="images/nominees/elizabeth-taylor.jpg"></li>
         </ul>
-        <div><li id="streep"></li></div>
-        <footer>Content</footer>
+        <!-----window test--->
+        <div id="ms" class="window">
+            <p id="wins"></p>
+            <button id="closebutton">Close</button>
+        </div>
     </main>
-    <script type="text/javascript" src="data/data.json"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/modal-init.js"></script>
 </body>
