@@ -97,17 +97,92 @@ var actors = {
     
     nicholson: {
         name: "Jack Nicholson", 
-        nominations: ["Easy Rider (1969)", "Five Easy Pieces (1970)", "The Last Detail (1973)", "Chinatown (1974)", "One Flew Over the Cuckoo's Nest (1975)", "Reds (1981)", "Terms of Endearment (1983)", "Prizzi's Honor (1985)", "Ironweed (1987)", "A Few Good Men (1992)", "As Good as It Gets (1997)", "About Schmidt (2002)"]
-        , wins: ["One Flew Over the Cuckoo's Nest (1975)", "Terms of Endearment (1983)", "As Good as It Gets (1997)"]
-        , genres: ["Documentary (70)", "Drama (69)", "Comedy (44)", "Music (28)", "Short (25)", "Romance (21)", "Crime (19)", "Thriller (17)", "Family (16)", "News (16)", "Biography (15)", "Western (11)", "Adventure (9)", "Horror (9)", "Reality-TV (8)", "Action (6)", "Fantasy (6)", "History (5)", "Musical (5)", "Mystery (5)", "Talk-Show (4)", "Animation (2)", "Game-Show (2)", "Sport (2)", "War (2)", "Sci-Fi (1)"]
-    }
-    , davis: {
-        name: "Bette Davis"
-        , nominations: ["Dangerous (1935)", "Jezebel (1938)", "Dark Victory (1939)", "The Letter (1940)", "The Little Foxes (1941)", "Now, Voyager (1942)", "Mr. Skeffington (1944)", "All About Eve (1950)", "The Star (1952)", "What Ever Happened to Baby Jane? (1962)"]
-        , wins: ["Dangerous (1935)", "Jezebel (1938)"]
-        , genres: ["Drama (114)", "Comedy (91)", "Talk-Show (69)", "Music (48)", "Family (40)", "Documentary (39)", "Romance (36)", "Crime (26)", "Thriller (21)", "Short (20)", "Mystery (18)", "News (18)", "Biography (13)", "Reality-TV (13)", "Film-Noir (9)", "Game-Show (9)", "Horror (8)", "Western (8)", "History (5)", "Musical (5)", "Adventure (4)", "Fantasy (2)", "Sport (2)", "Action (1)", "Sci-Fi (1)", "War (1)"]
-    }
-    , olivier: {
+        nominations: ["Easy Rider (1969)", 
+                      "Five Easy Pieces (1970)", 
+                      "The Last Detail (1973)", 
+                      "Chinatown (1974)", 
+                      "One Flew Over the Cuckoo's Nest (1975)", 
+                      "Reds (1981)", 
+                      "Terms of Endearment (1983)", 
+                      "Prizzi's Honor (1985)", 
+                      "Ironweed (1987)", 
+                      "A Few Good Men (1992)", 
+                      "As Good as It Gets (1997)", 
+                      "About Schmidt (2002)"], 
+        wins: ["One Flew Over the Cuckoo's Nest (1975)", 
+               "Terms of Endearment (1983)", 
+               "As Good as It Gets (1997)"], 
+        genres: ["Documentary (70)", 
+                 "Drama (69)", 
+                 "Comedy (44)", 
+                 "Music (28)", 
+                 "Short (25)", 
+                 "Romance (21)", 
+                 "Crime (19)", 
+                 "Thriller (17)", 
+                 "Family (16)", 
+                 "News (16)", 
+                 "Biography (15)", 
+                 "Western (11)", 
+                 "Adventure (9)", 
+                 "Horror (9)", 
+                 "Reality-TV (8)", 
+                 "Action (6)", 
+                 "Fantasy (6)", 
+                 "History (5)", 
+                 "Musical (5)", 
+                 "Mystery (5)", 
+                 "Talk-Show (4)", 
+                 "Animation (2)", 
+                 "Game-Show (2)", 
+                 "Sport (2)", 
+                 "War (2)", 
+                 "Sci-Fi (1)"]
+    }, 
+    
+    davis: {
+        name: "Bette Davis", 
+        nominations: ["Dangerous (1935)", 
+                      "Jezebel (1938)", 
+                      "Dark Victory (1939)", 
+                      "The Letter (1940)", 
+                      "The Little Foxes (1941)", 
+                      "Now, Voyager (1942)", 
+                      "Mr. Skeffington (1944)", 
+                      "All About Eve (1950)", 
+                      "The Star (1952)", 
+                      "What Ever Happened to Baby Jane? (1962)"], 
+        wins: ["Dangerous (1935)", 
+               "Jezebel (1938)"], 
+        genres: ["Drama (114)", 
+                 "Comedy (91)", 
+                 "Talk-Show (69)", 
+                 "Music (48)", 
+                 "Family (40)", 
+                 "Documentary (39)", 
+                 "Romance (36)", 
+                 "Crime (26)", 
+                 "Thriller (21)", 
+                 "Short (20)", 
+                 "Mystery (18)", 
+                 "News (18)", 
+                 "Biography (13)", 
+                 "Reality-TV (13)", 
+                 "Film-Noir (9)", 
+                 "Game-Show (9)", 
+                 "Horror (8)", 
+                 "Western (8)", 
+                 "History (5)", 
+                 "Musical (5)", 
+                 "Adventure (4)", 
+                 "Fantasy (2)", 
+                 "Sport (2)", 
+                 "Action (1)", 
+                 "Sci-Fi (1)", 
+                 "War (1)"]
+    }, 
+    
+    olivier: {
         name: "Laurence Olivier"
         , nominations: ["Wuthering Heights (1939)", "Rebecca (1940)", "Henry V (1946)", "Hamlet (1948)", "Richard III (1956)", "The Entertainer (1960)", "Othello (1965)", "Sleuth (1972)", "Marathon Man (1976)", "The Boys from Brazil (1978)"]
         , wins: ["Hamlet (1948)"]
