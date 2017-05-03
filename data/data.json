@@ -2,7 +2,7 @@ var actors = {
    
     streep: {
         name: "Meryl Streep", 
-        nominations: ["The Deer Hunter (1978)", 
+        nominations: ["The Deer Hunter (1978)",
                       "Kramer vs. Kramer (1979)", 
                       "The French Lieutenant's Woman (1981)", 
                       "Sophie's Choice (1982)", 
@@ -183,16 +183,54 @@ var actors = {
     }, 
     
     olivier: {
-        name: "Laurence Olivier"
-        , nominations: ["Wuthering Heights (1939)", "Rebecca (1940)", "Henry V (1946)", "Hamlet (1948)", "Richard III (1956)", "The Entertainer (1960)", "Othello (1965)", "Sleuth (1972)", "Marathon Man (1976)", "The Boys from Brazil (1978)"]
-        , wins: ["Hamlet (1948)"]
-        , genres: ["Drama (96)", "History (63)", "Documentary (53)", "War (51)", "Romance (32)", "Comedy (30)", "Biography (27)", "Talk-Show (17)", "Music (16)", "Family (12)", "Thriller (10)", "Action (9)", "Adventure (8)", "Short (8)", "Mystery (7)", "Crime (4)", "Musical (4)", "News (4)", "Reality-TV (4)", "Fantasy (1)", "Horror (1)"]
-    }
-    , newman: {
-        name: "Paul Newman"
-        , nominations: ["Cat on a Hot Tin Roof (1958)", "The Hustler (1961)", "Hud (1963)", "Cool Hand Luke (1967)", "Absence of Malice (1981)", "The Verdict (1982)", "The Color of Money (1986)", "Nobody's Fool (1994)", "Road to Perdition (2002)"]
-        , wins: ["The Color of Money (1986)"]
-        , genres: ["Drama (104)", "Documentary (81)", "Comedy (70)", "Talk-Show (63)", "Music (46)", "Biography (29)", "News (26)", "Family (22)", "Romance (22)", "Short (20)", "Crime (19)", "Sport (18)", "History (15)", "Thriller (15)", "Mystery (13)", "Action (10)", "War (9)", "Adventure (7)", "Western (7)", "Animation (6)", "Game-Show (5)", "Musical (5)", "Reality-TV (5)", "Sci-Fi (5)", "Horror (3)", "Fantasy (1)"]
+        name: "Laurence Olivier", 
+        nominations: ["Wuthering Heights (1939)", 
+                      "Rebecca (1940)", 
+                      "Henry V (1946)", 
+                      "Hamlet (1948)", 
+                      "Richard III (1956)", 
+                      "The Entertainer (1960)", 
+                      "Othello (1965)", 
+                      "Sleuth (1972)", 
+                      "Marathon Man (1976)", 
+                      "The Boys from Brazil (1978)"], 
+        wins: ["Hamlet (1948)"], 
+        genres: ["Drama (96)", 
+                 "History (63)", 
+                 "Documentary (53)", 
+                 "War (51)", "Romance (32)", 
+                 "Comedy (30)", 
+                 "Biography (27)", 
+                 "Talk-Show (17)", 
+                 "Music (16)", 
+                 "Family (12)", 
+                 "Thriller (10)", 
+                 "Action (9)", 
+                 "Adventure (8)", 
+                 "Short (8)", 
+                 "Mystery (7)", 
+                 "Crime (4)", 
+                 "Musical (4)", 
+                 "News (4)", 
+                 "Reality-TV (4)", 
+                 "Fantasy (1)", 
+                 "Horror (1)"]
+    }, 
+    
+    newman: {
+        name: "Paul Newman", 
+        nominations: ["Cat on a Hot Tin Roof (1958)", 
+                      "The Hustler (1961)", 
+                      "Hud (1963)", 
+                      "Cool Hand Luke (1967)", 
+                      "Absence of Malice (1981)", 
+                      "The Verdict (1982)", 
+                      "The Color of Money (1986)", 
+                      "Nobody's Fool (1994)", 
+                      "Road to Perdition (2002)"], 
+        wins: ["The Color of Money (1986)"], 
+        genres: ["Drama (104)", 
+                 "Documentary (81)", "Comedy (70)", "Talk-Show (63)", "Music (46)", "Biography (29)", "News (26)", "Family (22)", "Romance (22)", "Short (20)", "Crime (19)", "Sport (18)", "History (15)", "Thriller (15)", "Mystery (13)", "Action (10)", "War (9)", "Adventure (7)", "Western (7)", "Animation (6)", "Game-Show (5)", "Musical (5)", "Reality-TV (5)", "Sci-Fi (5)", "Horror (3)", "Fantasy (1)"]
     }
     , tracy: {
         name: "Spencer Tracy"
@@ -207,7 +245,7 @@ var actors = {
         , genres: ["Drama (46)", "Talk-Show (26)", "Thriller (18)", "Comedy (17)", "Music (17)", "Crime (16)", "Documentary (15)", "News (12)", "Romance (12)", "History (11)", "Action (7)", "Biography (7)", "Family (6)", "Short (6)", "War (6)", "Adventure (5)", "Horror (3)", "Western (3)", "Sci-Fi (2)", "Fantasy (1)", "Musical (1)", "Reality-TV (1)"]
     }
     , lemmon: {
-        name: "Jack Lemmmon"
+        name: "Jack Lemmon"
         , nominations: ["Mister Roberts (1955)", "Some Like It Hot (1959)", "The Apartment (1960)", "Days of Wine and Roses (1962)", "Save the Tiger (1973)", "The China Syndrome (1979)", "Tribute (1980)", "Missing (1982)"]
         , wins: ["Mister Roberts (1955)", "Save the Tiger (1973)"]
         , genres: ["Comedy (150)", "Talk-Show (109)", "Documentary (97)", "Drama (95)", "Music (62)", "Family (49)", "Biography (33)", "Romance (25)", "News (17)", "History (16)", "Reality-TV (15)", "Game-Show (13)", "Short (11)", "Crime (10)", "Musical (9)", "Mystery (8)", "Western (8)", "Thriller (7)", "Adventure (6)", "War (6)", "Animation (4)", "Fantasy (4)", "Horror (3)", "Sport (3)", "Action (2)"]
@@ -493,11 +531,41 @@ var actors = {
         , nominations: ["Mr. Smith Goes to Washington (1939)", "The Philadelphia Story (1940)", "It's a Wonderful Life (1946)", "Harvey (1950)", "Anatomy of a Murder (1959)"]
         , wins: ["The Philadelphia Story (1940)"]
         , genres: ["Comedy (167)", "Drama (94)", "Documentary (76)", "Talk-Show (71)", "Music (67)", "Romance (48)", "Family (33)", "Biography (29)", "Western (24)", "Short (22)", "History (20)", "Crime (19)", "Mystery (17)", "War (17)", "Musical (14)", "Reality-TV (12)", "Thriller (12)", "News (11)", "Adventure (10)", "Action (8)", "Game-Show (7)", "Fantasy (6)", "Sport (3)", "Film-Noir (2)", "Animation (1)", "Sci-Fi (1)"]
-    }
-    , taylor: {
-        name: "Elizabeth Taylor"
-        , nominations: ["Raintree County (1957)", "Cat on a Hot Tin Roof (1958)", "Suddenly, Last Summer (1959)", "Butterfield 8 (1960)", "Who's Afraid of Virginia Woolf? (1966)"]
-        , wins: ["Butterfield 8 (1960)", "Who's Afraid of Virginia Woolf? (1966)"]
-        , genres: ["Documentary (86)", "Comedy (80)", "Drama (79)", "Talk-Show (69)", "News (50)", "Romance (47)", "Family (46)", "Music (43)", "Biography (31)", "Short (21)", "History (18)", "War (14)", "Mystery (13)", "Thriller (11)", "Animation (9)", "Adventure (6)", "Crime (6)", "Reality-TV (6)", "Musical (5)", "Western (4)", "Fantasy (2)", "Game-Show (2)", "Horror (2)", "Sport (2)", "Action (1)"]
+    }, 
+    
+    taylor: {
+        name: "Elizabeth Taylor", 
+        nominations: ["Raintree County (1957)", 
+                      "Cat on a Hot Tin Roof (1958)", 
+                      "Suddenly, Last Summer (1959)", 
+                      "Butterfield 8 (1960)", 
+                      "Who's Afraid of Virginia Woolf? (1966)"], 
+        wins: ["Butterfield 8 (1960)", 
+               "Who's Afraid of Virginia Woolf? (1966)"], 
+        genres: ["Documentary (86)", 
+                 "Comedy (80)", 
+                 "Drama (79)", 
+                 "Talk-Show (69)", 
+                 "News (50)", 
+                 "Romance (47)", 
+                 "Family (46)", 
+                 "Music (43)", 
+                 "Biography (31)", 
+                 "Short (21)", 
+                 "History (18)", 
+                 "War (14)", 
+                 "Mystery (13)", 
+                 "Thriller (11)", 
+                 "Animation (9)", 
+                 "Adventure (6)", 
+                 "Crime (6)", 
+                 "Reality-TV (6)", 
+                 "Musical (5)", 
+                 "Western (4)", 
+                 "Fantasy (2)", 
+                 "Game-Show (2)", 
+                 "Horror (2)", 
+                 "Sport (2)", 
+                 "Action (1)"]
     }
 }

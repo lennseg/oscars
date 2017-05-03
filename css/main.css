@@ -111,8 +111,8 @@ ul > #streep .overlay {
 
 div.window {
     position: absolute;
-    height: 400px;
-    width: 60%;
+    height: 350px;
+    width: 50%;
     top: 200px;
     left: 20%;
     z-index: 100;
@@ -152,7 +152,4 @@ div.window {
 h2#name {
     font-size: 23px;
     color: #FBBD18;
-}
-
-div.nominations {
 }
