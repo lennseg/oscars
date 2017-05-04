@@ -1,4 +1,4 @@
-/* buttons */
+//buttons
 $("#women-button").click(function () {
     $(".women").fadeIn(100);
     $(".men").fadeOut(1000);
@@ -10,8 +10,8 @@ $("#men-button").click(function () {
 $("#nominees-button").click(function () {
     $(".nominee").fadeIn(10);
 });
-/* loading data */
 
+//getting data from json file
 var list = document.querySelector("ul");
 
 list.addEventListener("click", function (event) {
@@ -22,10 +22,9 @@ list.addEventListener("click", function (event) {
     document.querySelector("#genres").textContent = actors[event.target.parentElement.id].genres
 });
 
-/* div for data */
-
-var actors; 
 //opens actor window
+var actors; 
+
 streep = document.getElementById("streep")
 streep.addEventListener("click", function () {
     console.log(actors["streep"].wins);
