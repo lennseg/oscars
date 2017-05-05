@@ -251,6 +251,36 @@ smith.addEventListener("click", function () {
     document.getElementById("modal").style.display = "block";
 });
 
+spacek = document.getElementById("spacek")
+spacek.addEventListener("click", function () {
+    console.log(actors["spacek"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+washington = document.getElementById("washington")
+washington.addEventListener("click", function () {
+    console.log(actors["washington"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+adams = document.getElementById("adams")
+adams.addEventListener("click", function () {
+    console.log(actors["adams"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+bancroft = document.getElementById("bancroft")
+bancroft.addEventListener("click", function () {
+    console.log(actors["bancroft"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+cooper = document.getElementById("cooper")
+cooper.addEventListener("click", function () {
+    console.log(actors["cooper"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
 //closes actor window
 $("#closebutton").on("click", function () {
     $("#modal").css('display', 'none');
