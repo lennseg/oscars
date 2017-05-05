@@ -20,7 +20,6 @@ var myLength2;
 var formatted3 = "";
 var myLength3;
 
-
 list.addEventListener("click", function (event) {
     if (document.querySelector(".listItems")){
       document.getElementById("wins").innerHTML = "";
@@ -278,6 +277,132 @@ bancroft.addEventListener("click", function () {
 cooper = document.getElementById("cooper")
 cooper.addEventListener("click", function () {
     console.log(actors["cooper"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+lewis = document.getElementById("lewis")
+lewis.addEventListener("click", function () {
+    console.log(actors["lewis"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+havilland = document.getElementById("havilland")
+havilland.addEventListener("click", function () {
+    console.log(actors["havilland"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+dicaprio = document.getElementById("dicaprio")
+dicaprio.addEventListener("click", function () {
+    console.log(actors["dicaprio"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+dunne = document.getElementById("dunne")
+dunne.addEventListener("click", function () {
+    console.log(actors["dunne"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+finney = document.getElementById("finney")
+finney.addEventListener("click", function () {
+    console.log(actors["finney"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+freeman = document.getElementById("freeman")
+freeman.addEventListener("click", function () {
+    console.log(actors["freeman"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+hackman = document.getElementById("hackman")
+hackman.addEventListener("click", function () {
+    console.log(actors["hackman"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+hanks = document.getElementById("hanks")
+hanks.addEventListener("click", function () {
+    console.log(actors["hanks"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+hayward = document.getElementById("hayward")
+hayward.addEventListener("click", function () {
+    console.log(actors["hayward"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+ahepburn = document.getElementById("ahepburn")
+ahepburn.addEventListener("click", function () {
+    console.log(actors["ahepburn"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+jones = document.getElementById("jones")
+jones.addEventListener("click", function () {
+    console.log(actors["jones"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+kennedy = document.getElementById("kennedy")
+kennedy.addEventListener("click", function () {
+    console.log(actors["kennedy"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+maclaine = document.getElementById("maclaine")
+maclaine.addEventListener("click", function () {
+    console.log(actors["maclaine"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+march = document.getElementById("march")
+march.addEventListener("click", function () {
+    console.log(actors["march"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+moore = document.getElementById("moore")
+moore.addEventListener("click", function () {
+    console.log(actors["moore"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+peck = document.getElementById("peck")
+peck.addEventListener("click", function () {
+    console.log(actors["peck"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+penn = document.getElementById("penn")
+penn.addEventListener("click", function () {
+    console.log(actors["penn"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+sarandon = document.getElementById("sarandon")
+sarandon.addEventListener("click", function () {
+    console.log(actors["sarandon"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+shearer = document.getElementById("shearer")
+shearer.addEventListener("click", function () {
+    console.log(actors["shearer"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+stewart = document.getElementById("stewart")
+stewart.addEventListener("click", function () {
+    console.log(actors["stewart"].wins);
+    document.getElementById("modal").style.display = "block";
+});
+
+taylor = document.getElementById("taylor")
+taylor.addEventListener("click", function () {
+    console.log(actors["taylor"].wins);
     document.getElementById("modal").style.display = "block";
 });
 
