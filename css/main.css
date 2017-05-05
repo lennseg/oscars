@@ -16,7 +16,7 @@ h1 {
     color: white;
 }
 
-p {
+p.content {
     font-size: 13px;
     line-height: normal;
     padding-left: 40px;
@@ -46,14 +46,14 @@ p {
     border: none;
 }
 
-ul {
+ul.nominees {
     display: block;
     margin: auto;
     width: 90%;
     font-size: 0;
 }
 
-li {
+li.nominee {
     width: 115px;
     height: 138px;
     display: inline-block;
@@ -80,12 +80,11 @@ img:hover {
     left: 0;
 }
 
-ul > #streep .overlay {
+/*#streep .overlay {
     width: 85px;
     height: 100px;
     background-color: rgba(251, 191, 24, 0.4);
-    /* just for testing */
-}
+}*/
 
 #winner {
     margin: 0;
@@ -111,12 +110,13 @@ ul > #streep .overlay {
 
 div.window {
     position: absolute;
-    height: 350px;
+    height: auto;
+    padding-bottom: 20px;
     width: 50%;
     top: 200px;
     left: 20%;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     display: none;
 }
 
@@ -131,8 +131,8 @@ div.window {
     transition-duration: 0.4s;
     position: absolute;
     right: 0;
-    bottom: 0;
-    margin-bottom: 18px;
+    top: 0;
+    margin-top: 18px;
     margin-right: 18px;
 }
 
@@ -152,4 +152,21 @@ div.window {
 h2#name {
     font-size: 23px;
     color: #FBBD18;
+}
+
+li {
+    list-style: none;
+}
+
+p.instructions {
+    text-align: center;
+    font-size: 13px;
+}
+
+.credits {
+    padding: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: #FBBD18;
+    
 }

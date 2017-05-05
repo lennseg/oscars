@@ -12,7 +12,7 @@
 <body>
     <header>
         <h1 class="title">And <span class="gold-text">The Oscar</span> Goes To...</h1>
-        <p><span class="gold-text">The Academy Awards,</span> they are the awards craved by all of Hollywood. Every November more than <span class="gold-text">6,000</span> voting members from the 17 branches of the Academy of Motion Pictures and Sciences are sent a nominations ballot for the Oscars. They rank their five favorite films in a particular category, from best director to best makeup and so on. For actors and actresses, no matter how many times they’ve been nominated, the chances of winning are unlikely. This visualization shows <span class="gold-text">57</span> actors and actresses who have been nominated five or more times in a leading or a supporting role.</p>
+        <p class="content"><span class="gold-text">The Academy Awards,</span> they are the awards craved by all of Hollywood. Every November more than <span class="gold-text">6,000</span> voting members from the 17 branches of the Academy of Motion Pictures and Sciences are sent a nominations ballot for the Oscars. They rank their five favorite films in a particular category, from best director to best makeup and so on. For actors and actresses, no matter how many times they’ve been nominated, the chances of winning are unlikely. This visualization shows <span class="gold-text">57</span> actors and actresses who have been nominated five or more times in a leading or a supporting role.</p>
     </header>
     <main>
         <div id="button-wrap">
@@ -20,7 +20,8 @@
             <button id="men-button" class="button">Men</button>
             <button id="nominees-button" class="button">All Nominees</button>
         </div>
-        <ul>
+        <p class="instructions">Click on each nominee to explore their success!</p>
+        <ul class="nominees">
             <li id="streep" class="women nominee">
                 <div class="overlay"></div>
                 <div id="winner">Meryl Streep</div><img src="images/nominees/meryl-streep.jpg"></li>
@@ -195,12 +196,16 @@
         </ul>
         <!--window test-->
         <div id="modal" class="window">
-                <h2 id="name"></h2>
-                <p id="nominations"></p>
-                <p id="wins"></p>
-                <p id="genres"></p>
-        <button id="closebutton">Close</button>
+            <h2 id="name"></h2>
+            <p>Nominations</p>
+            <ul id="nominations"></ul>
+            <p>Wins</p>
+            <ul id="wins"></ul>
+            <p>Genres</p>
+            <ul id="genres"></ul>
+            <button id="closebutton">Close</button>
         </div>
+        <footer class="credits">© 2017 Lennse Garcia</footer>
     </main>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>

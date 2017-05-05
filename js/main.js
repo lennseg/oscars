@@ -13,13 +13,53 @@ $("#nominees-button").click(function () {
 
 //getting data from json file
 var list = document.querySelector("ul");
+var formatted = "";
+var myLength;
+var formatted2 = "";
+var myLength2;
+var formatted3 = "";
+var myLength3;
+
 
 list.addEventListener("click", function (event) {
+    if (document.querySelector(".listItems")){
+      document.getElementById("wins").innerHTML = "";
+        document.getElementById("nominations").innerHTML = "";
+        document.getElementById("genres").innerHTML = "";
+    }
     console.log(event.target.parentElement.id);
+    formatted = actors[event.target.parentElement.id].nominations;
+    //formatted = formatted.join(" ");
+    myLength = formatted.length;
+    for (var i =0; i < myLength; i++){
+    var newListItem = document.createElement("li");
+        newListItem.className = "listItems";
+        newListItem.textContent = formatted[i];
+        document.querySelector("#nominations").appendChild(newListItem);
+    }
+    
+    formatted2 = actors[event.target.parentElement.id].wins;
+    myLength2 = formatted2.length;
+    for (var i =0; i < myLength2; i++){
+    var newListItem2 = document.createElement("li");
+        newListItem2.className = "listItems";
+        newListItem2.textContent = formatted2[i];
+        document.querySelector("#wins").appendChild(newListItem2);
+    }
+    
+    formatted3 = actors[event.target.parentElement.id].genres;
+    myLength3 = formatted3.length;
+    for (var i =0; i < myLength3; i++){
+    var newListItem3 = document.createElement("li");
+        newListItem3.className = "listItems";
+        newListItem3.textContent = formatted3[i];
+        document.querySelector("#genres").appendChild(newListItem3);
+    }
+    
     document.querySelector("#name").textContent = actors[event.target.parentElement.id].name
-    document.querySelector("#nominations").textContent = actors[event.target.parentElement.id].nominations
-    document.querySelector("#wins").textContent = actors[event.target.parentElement.id].wins
-    document.querySelector("#genres").textContent = actors[event.target.parentElement.id].genres
+    //document.querySelector("#nominations").textContent = formatted;
+    //document.querySelector("#wins").textContent = actors[event.target.parentElement.id].wins
+    //document.querySelector("#genres").textContent = actors[event.target.parentElement.id].genres
 });
 
 //opens actor window
