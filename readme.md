@@ -24,6 +24,6 @@ I wanted to get specific information from each actor/actress. Instead pulling fr
 
 <img width="600" alt="screen shot 2017-05-03 at 12 24 46 pm" src="https://cloud.githubusercontent.com/assets/21225598/25670754/b529a1e8-2ffb-11e7-9b13-10957f766af3.png">
 
-The next step was to pull the data onto the html page when the user clicks an actor/actress image.
+The next step was to display the data when the user clicks on the actor/actress' image.
 
 <img width="700" alt="screen shot 2017-05-03 at 12 25 08 pm" src="https://cloud.githubusercontent.com/assets/21225598/25830765/17be75d8-342d-11e7-9256-4e6a7b789481.png">
