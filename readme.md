@@ -28,6 +28,11 @@ I wanted to get specific information from each nominee. Instead pulling from an 
 
 <img width="600" alt="screen shot 2017-05-03 at 12 24 46 pm" src="https://cloud.githubusercontent.com/assets/21225598/25670754/b529a1e8-2ffb-11e7-9b13-10957f766af3.png">
 
-The next step was to display the data when the user clicks on a nominee.
+The next step was to display the data once the user clicks on a nominee. This was the most challenging part of building this website. 
 
 <img width="700" alt="screen shot 2017-05-03 at 12 25 08 pm" src="https://cloud.githubusercontent.com/assets/21225598/25830765/17be75d8-342d-11e7-9256-4e6a7b789481.png">
+
+After the data was displayed, I was having issues with resetting the window modal when the user selects a new nominee. Data was being added to the current actor or actress. 
+
+<img width="720" alt="screen shot 2017-05-08 at 11 25 40 pm" src="https://cloud.githubusercontent.com/assets/21225598/25834892/e431fe3a-3448-11e7-9770-ab09d097794a.png">
+
