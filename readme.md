@@ -26,7 +26,7 @@ Users can sort the nominees by gender (male or female) or revert back to view al
 
 ##Creating the Datasets
 
-I wanted to get specific information from each nominee. Instead pulling from an API, I decided to create the datasets. Each actor has an id with their last name. The data includes their name, academy award nominations, academy award wins and genres of their entire career.
+I wanted to get specific information from each nominee. Instead pulling from an API, I decided to create the datasets. Each actor has an id with their last name except the Hepburns (Katherine Hepburn is khepburn and Audrey Hpeburn is ahepburn). The data includes their name, the movie and year for each Academy nomination, the movie and year for each win and the all the genres throughout their career.
 
 <img width="600" alt="screen shot 2017-05-03 at 12 24 46 pm" src="https://cloud.githubusercontent.com/assets/21225598/25670754/b529a1e8-2ffb-11e7-9b13-10957f766af3.png">
 
@@ -42,4 +42,8 @@ In javascript, I removed the commas and formatted the list to show the current i
 
 <img width="720" alt="screen shot 2017-05-08 at 11 25 40 pm" src="https://cloud.githubusercontent.com/assets/21225598/25834892/e431fe3a-3448-11e7-9770-ab09d097794a.png">
 
-<img width="800" alt="screen shot 2017-05-09 at 12 31 54 am" src="https://cloud.githubusercontent.com/assets/21225598/25836013/536731e6-3451-11e7-8797-410e732d6045.png"><img width="800" alt="screen shot 2017-05-09 at 12 32 34 am" src="https://cloud.githubusercontent.com/assets/21225598/25836102/3bb91b4e-3452-11e7-8cc0-e0c81bfbe3ea.png">
+<img width="800" alt="screen shot 2017-05-09 at 12 31 54 am" src="https://cloud.githubusercontent.com/assets/21225598/25836013/536731e6-3451-11e7-8797-410e732d6045.png">
+
+##Next Steps
+
+I want to work with the data and display a graph for the genres. As well as add the age of each actor/actress first Academy nomination and first Academy win. I also want to re-create the graph on the grid that shows nominations and wins for each actor and actress. 
