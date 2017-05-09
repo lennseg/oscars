@@ -18,6 +18,8 @@ The next step was to make this visualization interactive.
 
 <img width="800" alt="screen shot 2017-04-20 at 10 54 55 am" src="https://cloud.githubusercontent.com/assets/21225598/25237161/e085ade4-25b7-11e7-9c5e-8f5dd26eff67.png">
 
+Users can sort the nominees by gender (male or female) or revert back to view all the nominees by selecting any button on top. 
+
 ##Creating the Datasets
 
 I wanted to get specific information from each actor/actress. Instead pulling from an API I decided to create the datasets myself. The datasets include name, nominations, wins and genres for each actor and actress.
