@@ -46,4 +46,4 @@ In javascript, I removed the commas and formatted the list to show the current i
 
 ##Next Steps
 
-I want to work with the data and display a graph for the genres. As well as add the age of each actor/actress first Academy nomination and first Academy win. I also want to re-create the graph on the grid that shows nominations and wins for each actor and actress. 
+I want to work with the data and display a graph for the genres. As well as add the age of each actor/actress first Academy nomination and first Academy win. I also want to re-create the graph that shows the number of nominations and wins for each actor and actress. 
