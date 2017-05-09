@@ -36,7 +36,6 @@ list.addEventListener("click", function (event) {
         newListItem.textContent = formatted[i];
         document.querySelector("#nominations").appendChild(newListItem);
     }
-    
     formatted2 = actors[event.target.parentElement.id].wins;
     myLength2 = formatted2.length;
     for (var i =0; i < myLength2; i++){
@@ -44,8 +43,7 @@ list.addEventListener("click", function (event) {
         newListItem2.className = "listItems";
         newListItem2.textContent = formatted2[i];
         document.querySelector("#wins").appendChild(newListItem2);
-    }
-    
+    }   
     formatted3 = actors[event.target.parentElement.id].genres;
     myLength3 = formatted3.length;
     for (var i =0; i < myLength3; i++){
