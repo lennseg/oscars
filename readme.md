@@ -2,9 +2,9 @@
 ------------------------------------------------------------
 ##Spring 2017
 
-Last fall, I created a visualization from the [Academy Awards Database](http://awardsdatabase.oscars.org/). It’s a pretty large database so I focused more on their statistics. The statistics are arranged by award category and represent 89 years of Academy Awards history through the 2016 (89th) Awards.
+The [Academy Awards Database](http://awardsdatabase.oscars.org/) contains the record of past Academy Award winners and nominees, including Scientific and Technical Award winners. The statistics are arranged by award category and represent 89 years of Academy Awards history through the 2016 (89th) Awards.
 
-This visualization shows 57 actors and actresses who have been nominated five or more times in a leading or supporting role.
+In December of 2016, I created this visualization that shows 57 actors and actresses who have been nominated five or more times in a leading or supporting role.
 
 ![lennsegarcia-oscars](https://cloud.githubusercontent.com/assets/21225598/25236277/7bb79c3a-25b5-11e7-932e-d42bff2dca0d.jpg)
 
